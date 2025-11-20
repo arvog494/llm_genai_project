@@ -1,0 +1,3239 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "name": "Source: 2412.18875v2.pdf",
+      "type": "SourceDocument",
+      "properties": {
+        "path": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "dc35ea65-be90-4d90-8cc7-38253a150e87"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 0-400",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 0,
+        "end_word": 400,
+        "preview": "Market allocations under conflation of goods∗ Niccolò Urbinati Marco LiCalzi Università Ca’ Foscari Venezia Università Ca’ Foscari Venezia niccolo.urbinati@unive.it licalzi@unive.it April 2025 Abstrac..."
+      },
+      "id": "c7a7991b-0b02-40d4-9a87-74ee518224ea"
+    },
+    {
+      "name": "Niccolò Urbinati",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "17e776eb-3908-40e4-b8c2-d2a7e34a7aa3"
+    },
+    {
+      "name": "Marco LiCalzi",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "771724d7-51ee-48ac-909c-0f3e3252b446"
+    },
+    {
+      "name": "Università Ca’ Foscari Venezia",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "70adbd30-2deb-46a7-a0c7-e5089fd31c96"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 350-750",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 350,
+        "end_word": 750,
+        "preview": "a vineyard on the banks of a long river. The quality of the grapes depends on the position of the vines: one obtains different types of wine by pressing grapes grown on different vines. By custom, the..."
+      },
+      "id": "3293bd01-8699-4aed-95b2-0c8e62852b41"
+    },
+    {
+      "name": "vineyard",
+      "type": "location",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "12096bbe-4e0d-4d9b-83fb-c0243988fb20"
+    },
+    {
+      "name": "river",
+      "type": "location",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "0396ce0c-d1ee-4270-a5f3-5f9ba9fdba8a"
+    },
+    {
+      "name": "villagers",
+      "type": "group",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "10118774-c538-4393-8574-e272bfe7d6f5"
+    },
+    {
+      "name": "Milgrom",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8089c1d8-249a-4b42-9851-eec91c3bdf94"
+    },
+    {
+      "name": "Budish",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "07704736-3783-4f9d-a0e5-3371441c8a0f"
+    },
+    {
+      "name": "Adams and Yellen",
+      "type": "people",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "ae667383-d993-476e-8d5f-8c582b002c44"
+    },
+    {
+      "name": "Gilles and Diamantaras",
+      "type": "people",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "49662779-77b7-4b25-841b-1a0d94291224"
+    },
+    {
+      "name": "Stokey",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d8ccd4d7-a6c5-454d-9290-7247fe521bf3"
+    },
+    {
+      "name": "Chauvin",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "caa56a85-298a-406a-977f-4de4e6f9b8c7"
+    },
+    {
+      "name": "Sprumont",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "96fe2225-f50f-4fae-aaec-182b9935d054"
+    },
+    {
+      "name": "Mas-Colell",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "8abba056-4bb1-4866-817a-e7da9ab3d769",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "f320a2df-5c05-4274-9c44-76f072b07a7e"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 700-1100",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "8abba056-4bb1-4866-817a-e7da9ab3d769",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 700,
+        "end_word": 1100,
+        "preview": "the extant classification. Viewed as an intangible good, the clas- sification is non-excludable and non-rivalrous: it may be interpreted as an abstract public good in the sense of Mas-Colell (1980) an..."
+      },
+      "id": "8abba056-4bb1-4866-817a-e7da9ab3d769"
+    },
+    {
+      "name": "Diamantaras and Gilles",
+      "type": "authors",
+      "properties": {
+        "source_chunk_id": "8abba056-4bb1-4866-817a-e7da9ab3d769",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "cf2a44e7-a7d2-49f2-8be9-47971536080b"
+    },
+    {
+      "name": "Hart",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "8abba056-4bb1-4866-817a-e7da9ab3d769",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "21c1a361-e671-425f-98ac-34ac67e60bca"
+    },
+    {
+      "name": "Cass and Citanna",
+      "type": "authors",
+      "properties": {
+        "source_chunk_id": "8abba056-4bb1-4866-817a-e7da9ab3d769",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "a7e6f7dc-bec2-4011-8870-10c51d0e743c"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 1050-1450",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "9919a380-2aa8-42e6-b942-ce6e00c8a897",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 1050,
+        "end_word": 1450,
+        "preview": "compatible claims on society’s endowment. It is infeasible (or impractical) to trade over a continuum, but society can classify goods and conflate them into a finite number of commodi- ties. The adopt..."
+      },
+      "id": "9919a380-2aa8-42e6-b942-ce6e00c8a897"
+    },
+    {
+      "name": "society",
+      "type": "group",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d3a36577-4b44-42bc-8de7-c54c61c36dec"
+    },
+    {
+      "name": "economy",
+      "type": "system",
+      "properties": {
+        "source_chunk_id": "9919a380-2aa8-42e6-b942-ce6e00c8a897",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "795f1b48-fef6-4230-a38c-0694e5f6c7e4"
+    },
+    {
+      "name": "agents",
+      "type": "individual",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d57c7ce8-c875-4b93-975e-96b23dbd94e4"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 1400-1800",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 1400,
+        "end_word": 1800,
+        "preview": "is the case when mixing wheat in adherence to a market standard or blending grapes into a wine with a protected designation of origin.5 The partition π defines which commodities are tradable in the ec..."
+      },
+      "id": "0ebe7110-ecc6-4412-81ec-c113f83034b9"
+    },
+    {
+      "name": "wheat",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8ade0945-3415-4f6b-b2f2-960a62e65e30"
+    },
+    {
+      "name": "grapes",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "c6415fe9-abea-429d-9307-87c69fe432cc"
+    },
+    {
+      "name": "π",
+      "type": "R-classification",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "b355b01a-36fb-4275-9f9f-180a1fe070e7"
+    },
+    {
+      "name": "C",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3569a21c-3077-44ef-a499-1c6e6efca418"
+    },
+    {
+      "name": "x",
+      "type": "bundle",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3ed86bed-6f57-4874-8769-6d6cfd7d7dda"
+    },
+    {
+      "name": "ω(C)",
+      "type": "bundle",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8f66a093-93ab-4886-b876-b640110dfd22"
+    },
+    {
+      "name": "Rπ +",
+      "type": "set",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "e0e75191-47a6-4367-a49a-2c22a1227003"
+    },
+    {
+      "name": "i",
+      "type": "agent",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "00bfae12-c2ff-4b77-b4b4-d248c2e1b759"
+    },
+    {
+      "name": "κi",
+      "type": "endowment",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "76c6333d-86aa-4171-bf96-ce6d1552045a"
+    },
+    {
+      "name": "Ui",
+      "type": "preference function",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "16ffbf32-9089-4afd-b1dd-aa9c0021031a"
+    },
+    {
+      "name": "Vi(π,·)",
+      "type": "restricted preference function",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "42ad574b-5ad5-4cd6-afc4-e60d32e1d7ab"
+    },
+    {
+      "name": "p",
+      "type": "price",
+      "properties": {
+        "B": "1",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "480d525c-cdf6-42bc-9396-47cb3ac25e53"
+    },
+    {
+      "name": "xi",
+      "type": "bundle",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d1902402-95b5-464a-9c67-ea1118176afb"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 1750-2150",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "1e7d5a83-4693-430b-bc94-52512dcb474c",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 1750,
+        "end_word": 2150,
+        "preview": "its underlying goods, with agents computing expected utilities from the tradable lotteries. 5 equilibrium inE(π). In short, imposing a classificationπ reduces the economic interaction over a con- tinu..."
+      },
+      "id": "1e7d5a83-4693-430b-bc94-52512dcb474c"
+    },
+    {
+      "name": "I",
+      "type": "interval",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "16a45728-9cc7-4e14-8132-2ad73fdfb79a"
+    },
+    {
+      "name": "F",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411"
+    },
+    {
+      "name": "ω",
+      "type": "positive measure",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "9d368843-3809-4ba7-b918-57aede55e56b"
+    },
+    {
+      "name": "νi",
+      "type": "evaluation measure",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2047f7e8-815b-4374-83fb-f28b8ecc75ff"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 2100-2500",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 2100,
+        "end_word": 2500,
+        "preview": "In particular, when all agents have linear (Cobb-Douglas, CES) utility functions, equilibrium prices in every E(π) exist and are unique up to normalization, and thus agents receive the same utility at..."
+      },
+      "id": "850c8ea5-c824-406d-a654-57c668a266c7"
+    },
+    {
+      "name": "Cobb-Douglas",
+      "type": "utility function",
+      "properties": {
+        "source_chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "67548571-4e9e-4ae5-98d7-e20c8a79ebb7"
+    },
+    {
+      "name": "CES",
+      "type": "utility function",
+      "properties": {
+        "source_chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "b4e57a44-699b-4938-9e7b-0e4210c131e4"
+    },
+    {
+      "name": "Mas-Colell et al.",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "c4841fd2-19b8-452f-b375-034700766c8c"
+    },
+    {
+      "name": "Boy- lan",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "df2d9a46-7824-474a-b72b-22f9ceed9288"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 2450-2850",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 2450,
+        "end_word": 2850,
+        "preview": "when their distance is zero. Recall from Section 2 that under our assumptions the setW(π) of competitive equi- libria for an economyE(π) is not empty. We show thatW(π) is compact and depends continuou..."
+      },
+      "id": "ff776425-7288-4774-899b-324a729ee286"
+    },
+    {
+      "name": "Section 2",
+      "type": "section",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1d1c4088-4f9a-4ab8-b466-2425e315918d"
+    },
+    {
+      "name": "Theorem 2",
+      "type": "theorem",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "da2c9114-a36c-4229-88c2-d2b9a85cccaa"
+    },
+    {
+      "name": "Corollary 3",
+      "type": "corollary",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2cd98387-7488-4550-afb2-bb5cb8491f50"
+    },
+    {
+      "name": "Π(≤k)",
+      "type": "set",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "43daf3ee-307b-48c0-9c81-c3d28abd4ce3"
+    },
+    {
+      "name": "dω",
+      "type": "distance",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "4848ab8b-25ca-4aa3-9600-1b9f4d6c46a7"
+    },
+    {
+      "name": "E(π)",
+      "type": "economy",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "e1d9c9bc-1758-4c3b-9da7-0cf385b1d747"
+    },
+    {
+      "name": "W(π)",
+      "type": "correspondence",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "02d3096f-edfd-4ef8-963a-d7b45ed2c11f"
+    },
+    {
+      "name": "Ψi(π)",
+      "type": "correspondence",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "6b36a568-dda8-47b7-8c6c-90a9885d6bf0"
+    },
+    {
+      "name": "A",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d"
+    },
+    {
+      "name": "B",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "7c835bde-987d-4b2c-9369-c4748e96eca7"
+    },
+    {
+      "name": "ρ",
+      "type": "refinement",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 2800-3200",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 2800,
+        "end_word": 3200,
+        "preview": "configuration is Pareto- optimal. For instance, the competitive equilibrium under the trivial classificationπ= {I}is generically Pareto-dominated by many other finer competitive configurations. In the..."
+      },
+      "id": "48f43151-1245-43c5-8d9e-bfa6e86b8526"
+    },
+    {
+      "name": "κ",
+      "type": "claim",
+      "properties": {
+        "source_chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "4b066fb6-08de-421a-82c4-d653871b88c9"
+    },
+    {
+      "name": "ν1",
+      "type": "evaluation measure",
+      "properties": {
+        "F": "[ 0,1 2 ]",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8535bd46-dcc6-48d5-a0f3-be6da15cc132"
+    },
+    {
+      "name": "ν2",
+      "type": "evaluation measure",
+      "properties": {
+        "F": "( 1 2 ,1 ]",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2a593123-ce50-4342-8521-fc7f0905664e"
+    },
+    {
+      "name": "ν3",
+      "type": "evaluation measure",
+      "properties": {
+        "F": "[ 0,1 2 ]",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "fe950ae4-aca5-4eec-b9e5-76b95b6e0b49"
+    },
+    {
+      "name": "E(ρ)",
+      "type": "economy",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "a02f0e33-1dff-4a76-b61b-da96cc912133"
+    },
+    {
+      "name": "A′",
+      "type": "interval",
+      "properties": {
+        "source_chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "905293e5-9f5e-4ba2-9aa9-644563ee63ff"
+    },
+    {
+      "name": "B′",
+      "type": "interval",
+      "properties": {
+        "source_chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "53bede83-2f70-4525-b862-b0f42d635f73"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 3150-3550",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 3150,
+        "end_word": 3550,
+        "preview": "3 ) to agents2 and 3. In this case, agents have utilities: V1(ρ,y1) = 1, V2(ρ,y2) = 1 2, V3(ρ,y3) = 1 2. Clearly, the competitive configuration⟨ρ,(yi)⟩Pareto-dominates the competitive con- figuration ..."
+      },
+      "id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317"
+    },
+    {
+      "name": "yi",
+      "type": "utility",
+      "properties": {
+        "source_chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "6b1c0f48-b705-430c-a95a-9b1687b29311"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 3500-3900",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 3500,
+        "end_word": 3900,
+        "preview": "0 for every i and every C in π, then one can redefine agents’ claims so that⟨π,(xi)⟩is competitive. Proposition 6 ensures that an interior allocation that is Pareto-optimal can be cast as a competitiv..."
+      },
+      "id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51"
+    },
+    {
+      "name": "Bt",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "e5597791-db5a-41c6-bdd8-69785c792b2d"
+    },
+    {
+      "name": "Ct",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8b433b29-5aaa-4ce6-9de3-22934d93de32"
+    },
+    {
+      "name": "D",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "37f24df7-8b62-4ee6-9952-72673673fc7d"
+    },
+    {
+      "name": "E",
+      "type": "economy",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "221aaadf-9d00-484f-ae1c-d0a9385b16f6"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 3850-4250",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 3850,
+        "end_word": 4250,
+        "preview": "prices for the two commoditiesA and D depends on the thresholdt. For everyt, letpt be a competitive price system inE(πt) and letφ(t) denote the ratio pt(A)/pt(D). Note that the function φ does not dep..."
+      },
+      "id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0"
+    },
+    {
+      "name": "commodities",
+      "type": "group",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "6b1243b6-61ed-47a2-84e3-81a44bbd4562"
+    },
+    {
+      "name": "πt",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d76557a2-3b66-4d5e-a987-bde02cd901d6"
+    },
+    {
+      "name": "φ(t)",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8b34699f-2edb-4cdb-b40f-2e60e0766918"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 4200-4600",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 4200,
+        "end_word": 4600,
+        "preview": "that φ(t) = 1/φ(s), so thatpt(A)/pt(D) = ps(D)/ps(A). Therefore, whatever holds about the equilibrium price ofA relative to D in a classification is specularly true about D relative toA under a differ..."
+      },
+      "id": "64ef0394-67e2-4b97-8fd1-caca1cd39231"
+    },
+    {
+      "name": "φ",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2db62e73-bbc6-45ed-b1d1-7d40e6b9257a"
+    },
+    {
+      "name": "fi",
+      "type": "density",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "6a50dc77-640d-4169-8d33-804c3d3f8b21"
+    },
+    {
+      "name": "f1",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "96297ac9-f212-430b-a1a1-a06f163c0d21"
+    },
+    {
+      "name": "f2",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "e95261ca-fdef-421b-96ea-3940846d4669"
+    },
+    {
+      "name": "θ",
+      "type": "leveling point",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "9f55c799-cd91-4a1c-8bdb-d95a3307828c"
+    },
+    {
+      "name": "Cj∗",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "4dd126f7-eaf8-415d-bbcf-e85690d00df2"
+    },
+    {
+      "name": "Cℓ",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "7f0b0ad1-a28e-4dd4-831c-bd12b7d9c41d"
+    },
+    {
+      "name": "Cr",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3a345fa2-455b-4f7d-af9a-181c2a09d1ce"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 4550-4950",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 4550,
+        "end_word": 4950,
+        "preview": "studying howCj∗ is allocated between 1 and 2. Specifically, let Cℓ = ⋃ j<j∗ Cj and Cr = ⋃ j>j∗ Cj denote the two commodities obtained by bundling the intervals on the left and on the right ofCj∗, resp..."
+      },
+      "id": "9bb0879a-6ee4-4057-9e0d-e5022e157416"
+    },
+    {
+      "name": "Cj*",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "e936f98f-1562-4fc5-8b8d-5d6e4b7138f4"
+    },
+    {
+      "name": "Agent 1",
+      "type": "agent",
+      "properties": {
+        "source_chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8786880c-5f28-45a5-8ed3-aa384ba04a35"
+    },
+    {
+      "name": "Agent 2",
+      "type": "agent",
+      "properties": {
+        "source_chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "7665b21c-a0ef-4e40-aaef-5e9e36eae25f"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 4900-5300",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 4900,
+        "end_word": 5300,
+        "preview": "and V∗ 2 (η) that 15 the two agents receive in equilibrium as functions ofη: V∗ 1 (η) =    1 2 2η−η2 2−η 2η and V∗ 2 (η) =    1+η 2(1−η) 1 −η2 1 2 for    0 ≤η≤1 − √ 2 ..."
+      },
+      "id": "323aa7ff-4612-4edd-974e-04e98c1ecb79"
+    },
+    {
+      "name": "V∗ 1 (η)",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d81f70bf-f82d-472b-9321-7b2d34af2b3e"
+    },
+    {
+      "name": "V∗ 2 (η)",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "9d5ab2ff-2a33-4aff-beb7-89c933b1785d"
+    },
+    {
+      "name": "η",
+      "type": "variable",
+      "properties": {
+        "source_chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1e530f24-2e67-4429-a1ec-d6ed365c6adf"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 5250-5650",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "074a6bde-198f-487d-b96b-455fced7dd85",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 5250,
+        "end_word": 5650,
+        "preview": "nor B are directly affected 16 by the refinement and despite their relative prices staying identical. Example 3. Consider a society whereω is the Lebesgue measure and there are4 agents with different ..."
+      },
+      "id": "074a6bde-198f-487d-b96b-455fced7dd85"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 5600-6000",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 5600,
+        "end_word": 6000,
+        "preview": "and B and their relative prices are the same in both economies. Moreover, 1’s switch in trading positions leaves unchanged the utility of his allocation under either classification. 17 4.2 Refinements..."
+      },
+      "id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 5950-6350",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 5950,
+        "end_word": 6350,
+        "preview": "ing, assume that theBj’s are ordered so thati < jimplies s < jfor every s in Bi and t in Bj. We show by contradiction that, in any equilibrium inE(ρ), agents in group 1 consume a positive amount of so..."
+      },
+      "id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4"
+    },
+    {
+      "name": "Example",
+      "type": "Conceptual Example",
+      "properties": {
+        "source_chunk_id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "f1999fb1-d7eb-40e8-a235-39aaa88d5dd2"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 6300-6700",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 6300,
+        "end_word": 6700,
+        "preview": "designer may prefer a simpler environment when the social cost of increasing the number of commodities is higher than the social benefit from a richer set of trading opportunities. The optimal number ..."
+      },
+      "id": "0495496e-c3db-47fb-b040-032635bb1ab9"
+    },
+    {
+      "name": "designer",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "71089f8b-710b-4c34-b0df-2ea6e61f5fdb"
+    },
+    {
+      "name": "configuration",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "5f5071cf-6056-4b14-b6f0-e286578315ee"
+    },
+    {
+      "name": "social welfare",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "614c0ff0-9200-4d64-8180-466c192d14d4"
+    },
+    {
+      "name": "classification",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "28498d2a-9848-4131-9c9c-677fdd96c687"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 6650-7050",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "62ae615a-8fe8-48e2-ba80-4d68a864cc01",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 6650,
+        "end_word": 7050,
+        "preview": "forAim−i that she values twice as much. Agents’ evaluations have disjoint support, and between two intervals valuable for agent i there exists at least an interval that another agentj ̸= i values twic..."
+      },
+      "id": "62ae615a-8fe8-48e2-ba80-4d68a864cc01"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 7000-7400",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 7000,
+        "end_word": 7400,
+        "preview": "σ(ρ). Then dω(π,ρ) = 0 if and only if σ(π) and σ(ρ) have the same closure; see Lemma 3.72, Aliprantis and Border, 2006. Equivalently, everyB in σ(π) corresponds to someB′in σ(ρ) up to null sets. Becau..."
+      },
+      "id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e"
+    },
+    {
+      "name": "σ",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "98b4da0c-86c7-46d5-8ab7-2a08122f5512"
+    },
+    {
+      "name": "J",
+      "type": "interval",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "5ae91d93-4d3e-4e02-b5d5-8b37c5ad92c4"
+    },
+    {
+      "name": "k",
+      "type": "integer",
+      "properties": {
+        "source_chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "620cb83e-5aa6-4379-9675-e6b293634d0e"
+    },
+    {
+      "name": "W",
+      "type": "correspondence",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1f10c59d-3af8-4115-8310-1bf38bbada93"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 7350-7750",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 7350,
+        "end_word": 7750,
+        "preview": ": Π(≤k) ↠ ˆΠk is obviously continuous. Moreover, by the argument above,W(π) is essentially identical to the compact set ˆW(ˆπ), for anyˆπ in γ(π). We conclude thatWcan be identified with the compositi..."
+      },
+      "id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca"
+    },
+    {
+      "name": "ˆΠk",
+      "type": "set",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "adeee49b-a9a8-4013-8951-914bbf0f04f4"
+    },
+    {
+      "name": "Ψi",
+      "type": "correspondence",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "6f7cfae9-65f7-4039-8633-922496fab7c6"
+    },
+    {
+      "name": "ˆπ",
+      "type": "element",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "ecf7558d-257b-4d72-b257-ce247d764cb9"
+    },
+    {
+      "name": "ˆxi",
+      "type": "bundle",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "66f8b24a-c389-4129-9405-e02da4836a84"
+    },
+    {
+      "name": "O",
+      "type": "set",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "9cbddbd1-24dd-46ee-b171-fb705c9e856d"
+    },
+    {
+      "name": "Vi",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2d210a84-11f6-426e-96f1-5aea16cea555"
+    },
+    {
+      "name": "V",
+      "type": "function",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "c0576b0c-62dc-4b49-b6b1-dfc42d0717f7"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 7700-8100",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 7700,
+        "end_word": 8100,
+        "preview": "competitive configuration that achieves such maximum. Then ∑ Vi(ˆπ,ˆxi) ≥∑ Vi(ρ,yi) for any competitive configuration⟨ρ,(yi)⟩with ρ in Π(≤k). We conclude that⟨ˆπ,(ˆxi)⟩is Pareto optimal. □ Proposition..."
+      },
+      "id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a"
+    },
+    {
+      "name": "Proposition 6",
+      "type": "Mathematical Proposition",
+      "properties": {
+        "source_chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "74423cf1-ee5a-4f60-b026-10367f189aa8"
+    },
+    {
+      "name": "Welfare Theorem",
+      "type": "Mathematical Concept",
+      "properties": {
+        "source_chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3a078be5-a7a0-46f9-b46e-497676bc8c92"
+    },
+    {
+      "name": "Arrow-Debreu model",
+      "type": "Economic Model",
+      "properties": {
+        "source_chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "0a32cfb7-9b8c-4955-81ee-9b92e2680935"
+    },
+    {
+      "name": "General Equilibrium",
+      "type": "Economic Concept",
+      "properties": {
+        "source_chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8fbe0e5b-12bf-4114-be9c-f4a1c80d74ba"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 8050-8450",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 8050,
+        "end_word": 8450,
+        "preview": "of the equilibrium-set correspondence for pure exchange economies”.Econometrica40, 99–108. [15] L. Jones (1984), “A competitive model of commodity differentiation”,Econo- metrica: Journal of the Econo..."
+      },
+      "id": "cb769784-d259-4df5-b842-6f55b74e6f93"
+    },
+    {
+      "name": "Econometrica",
+      "type": "Journal",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1271ee67-ef4d-43fc-8095-84a2d395113b"
+    },
+    {
+      "name": "L. Jones",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "73b78216-a7cc-4e48-b8e7-01f1915a9c33"
+    },
+    {
+      "name": "K. Lancaster",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "74b0f3ee-4850-4fbe-8641-6173d4d56121"
+    },
+    {
+      "name": "J. Levin",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1fb0ddf5-2dca-4660-9fd1-3fe9fbba7b84"
+    },
+    {
+      "name": "P. Milgrom",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "475b773b-fd7b-4618-9ea8-52b514964bbc"
+    },
+    {
+      "name": "A. Mas-Colell",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "c4b08ca0-f06d-4022-89e9-21f6573ba0fa"
+    },
+    {
+      "name": "M.D Whinston",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "bcad86b6-ec83-4894-9dae-6f62860b21d4"
+    },
+    {
+      "name": "J.R. Green",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "280a3e19-f17d-4540-b50d-4a554fa87873"
+    },
+    {
+      "name": "A.E. Roth",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "a7cc8fed-67f5-474f-9017-4a2c60333104"
+    },
+    {
+      "name": "Y. Sprumont",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "0640370b-f4ce-4617-b224-19b584a49aad"
+    },
+    {
+      "name": "N.L. Stokey",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "5ed054ab-2a34-4e70-9871-c7a1aa6d17e7"
+    },
+    {
+      "name": "V.V. Vazirani",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "17472aa5-dc8f-419b-9269-4d56e8c603ff"
+    },
+    {
+      "name": "Nisan",
+      "type": "Editor",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1f7ba005-732d-4ae4-9a00-c70de5a4cb97"
+    },
+    {
+      "name": "Roughgarden",
+      "type": "Editor",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "609d9739-abe4-4a4d-9ae7-644b04bbcc5c"
+    },
+    {
+      "name": "Tardos",
+      "type": "Editor",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "bab4c472-9872-449e-8c61-dea3b1899c5b"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 8400-8800",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 8400,
+        "end_word": 8800,
+        "preview": "following example illustrates a society with two agents, where every configu- ration can be improved both from a Paretian and a utilitarian point of view with a suitable refinement of the underlying c..."
+      },
+      "id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f"
+    },
+    {
+      "name": "Smith-Volterra-Cantor set",
+      "type": "set",
+      "properties": {
+        "size": "1/2",
+        "source_chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "fcd9ffc3-b29d-4ab3-b480-99ca2825614b"
+    },
+    {
+      "name": "SVC set",
+      "type": "set",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3a561162-46e8-409c-8e92-b4740d640168"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 8750-9150",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 8750,
+        "end_word": 9150,
+        "preview": "prove that one can modify (yi) into a new allocation that every agent strictly prefers to(xi). Clearly, Example 6 relies crucially on the assumption that agents’ evaluations of goods are expressed thr..."
+      },
+      "id": "01401c54-be5e-4bec-b622-be7fba42700e"
+    },
+    {
+      "name": "y",
+      "type": "bundle",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "fa01030c-3a5e-4fdb-be82-8ca6ac857265"
+    },
+    {
+      "name": "θA",
+      "type": "real number",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8ce4c616-4552-48ab-924c-ab6e13745d32"
+    },
+    {
+      "name": "θB",
+      "type": "real number",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "bb699907-d430-4ce4-8cb1-303795ba6558"
+    },
+    {
+      "name": "Ci",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "86bf3076-230b-4930-ae62-a9dfb0320b53"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 9100-9500",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 9100,
+        "end_word": 9500,
+        "preview": "4. Let C∗ = Cj∗ be the disputed commodity; define Cℓ = ⋃ i<j∗Ci and Cr = ⋃ j>j∗Cj. If x(C∗) >0 and y(C∗) >0, thenx(C∗) = ξω(C∗), where ξ = 1 2 [ ν2(Cr) ν2(C∗) −ν1(Cℓ) ν1(C∗) + 1 ] . (*) 3 Proof. By (1..."
+      },
+      "id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d"
+    },
+    {
+      "name": "C*",
+      "type": "disputed commodity",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "f72b6038-02dd-4008-91b2-dd03c84c9189"
+    },
+    {
+      "name": "ω(Ci)",
+      "type": "price",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "5d0da888-47f8-4bd1-b035-bbf31022c0a6"
+    },
+    {
+      "name": "p(Ci)",
+      "type": "price",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1f4a5041-2d8c-4cb4-b7e3-034774f2222e"
+    },
+    {
+      "name": "ν1(Ci)",
+      "type": "value",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "fe541a71-90d8-4d51-b159-5a2216e7a119"
+    },
+    {
+      "name": "ν2(Ci)",
+      "type": "value",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "464dcc27-4040-4fa1-9a62-146547c6c784"
+    },
+    {
+      "name": "θ1",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d7ac97ee-33e9-4119-990f-01d70e6bb507"
+    },
+    {
+      "name": "θ2",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "f11c0029-a2f5-4d7c-a0a7-2f67dd3c9065"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 9450-9850",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 9450,
+        "end_word": 9850,
+        "preview": "into two commodities, there is an agent who strictly prefers every competitive allocation in E(π) to any competitive allocation inE(ρ). In short, adding a new commodity dam- ages at least one agent an..."
+      },
+      "id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6"
+    },
+    {
+      "name": "ν4",
+      "type": "evaluation measure",
+      "properties": {
+        "F": "[1 2,1 ]",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "0c8f180e-2ed9-49d0-9eb5-75a8332ec656"
+    },
+    {
+      "name": "x1",
+      "type": "bundle",
+      "properties": {
+        "A": "3/4",
+        "B": "0",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "b925cdf9-2370-461a-b7db-4ebe8078a6b1"
+    },
+    {
+      "name": "x2",
+      "type": "bundle",
+      "properties": {
+        "A": "0",
+        "B": "1/4",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "58c994c9-431a-448d-bb35-1f6790d82f3e"
+    },
+    {
+      "name": "x3",
+      "type": "bundle",
+      "properties": {
+        "A": "3/4",
+        "B": "0",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "9528f67d-83cf-41b9-b0c2-ac7ead8b255b"
+    },
+    {
+      "name": "x4",
+      "type": "bundle",
+      "properties": {
+        "A": "0",
+        "B": "1/4",
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "8fa9a1ca-cb61-4a84-b1d4-2b8c8a85395b"
+    },
+    {
+      "name": "t",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d32a261c-53a8-4e4f-af54-2d9dbeb125d7"
+    },
+    {
+      "name": "w",
+      "type": "wealth",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "9652cd9c-6ad4-417a-be63-669c4d257983"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 9800-10200",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 9800,
+        "end_word": 10200,
+        "preview": "are two possible cases: • if p(A1) = p(A2) ≤1, then each of the agents1, 2 and 3 demands 1 4 units of commodity A1 or A2. This creates an excess of demand, and thusp cannot be an equilibrium price. On..."
+      },
+      "id": "7368e606-995d-408f-a13d-723dedacf6e4"
+    },
+    {
+      "name": "p(A1)",
+      "type": "price",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "14a50678-5b84-469f-8cf1-1b4a4bf9bdbb"
+    },
+    {
+      "name": "p(A2)",
+      "type": "price",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "6fe93c9f-c9be-4555-a3ff-b71db3f3c7ed"
+    },
+    {
+      "name": "A1",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "5275afd7-6ade-4a3c-99f4-a084ec58811e"
+    },
+    {
+      "name": "A2",
+      "type": "commodity",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "53cfaab2-5dd0-4426-9304-8a0d183863b2"
+    },
+    {
+      "name": "ε",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "df4a8aca-8492-471e-9ceb-a9ebb1ff139f"
+    },
+    {
+      "name": "λ",
+      "type": "measure",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "c7ba00fa-364a-4a31-8584-a94927803ca1"
+    },
+    {
+      "name": "δ{1}",
+      "type": "measure",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "32f7bc01-9f0e-480a-af3f-5c5821afcb81"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 10150-10550",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 10150,
+        "end_word": 10550,
+        "preview": "λ be the Lebesgue measure onIand δ{1} denote the Dirac measure for the singleton{1}. We consider a society where there are2n agents with identical claims, and the measureω is given by: ω(F) = 1 2 ( λ(..."
+      },
+      "id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540"
+    },
+    {
+      "name": "Lebesgue measure",
+      "type": "measure",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3693d76c-9375-46f1-be01-47dad8ff7c2f"
+    },
+    {
+      "name": "Dirac measure",
+      "type": "measure",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "463db167-6fe7-4e22-b8e1-b12a83bcd3f3"
+    },
+    {
+      "name": "claims",
+      "type": "claim",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "1ea188e4-7e97-47a9-8c9e-bb3d6e938d36"
+    },
+    {
+      "name": "measure ω",
+      "type": "measure",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "d98e3b7e-d4b0-48ec-a970-f2f8a2a1f43b"
+    },
+    {
+      "name": "evaluation measures ν1 and ν2",
+      "type": "measure",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2a1812b5-e2aa-46c8-b54b-9fc0cf5c9b7c"
+    },
+    {
+      "name": "commodities A = [0, 1) and B = {1}",
+      "type": "set",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "63e61fd7-2712-428f-84ce-0fc7863d7479"
+    },
+    {
+      "name": "classification π",
+      "type": "classification",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "be7b92e4-a0ad-4de4-9022-f47b55869f25"
+    },
+    {
+      "name": "allocation E(ρ)",
+      "type": "allocation",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "bba47885-8956-4379-9018-d8db579c11f1"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 10500-10900",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 10500,
+        "end_word": 10900,
+        "preview": "in group2 can demand more than1 2n units of B. This leads to an excess of demand forB, which contradicts the assumption that prices are competitive. 4 Bi-dimensional commodities Consider an alternativ..."
+      },
+      "id": "ec23164d-ca83-435f-a371-c4313d4d83f9"
+    },
+    {
+      "name": "R",
+      "type": "bi-dimensional commodities",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "3bb198a0-9f18-4894-90d0-dd161759f0fa"
+    },
+    {
+      "name": "πI",
+      "type": "finite partition of I",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "dfc7dd96-52a7-481a-a164-16a03ecef8eb"
+    },
+    {
+      "name": "πJ",
+      "type": "finite partition of J",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "0dc316ef-0afe-4425-8b43-398f10d2e16e"
+    },
+    {
+      "name": "A×B",
+      "type": "cell in π",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "ec5efa5a-0f02-4db9-b314-e05c776bddc0"
+    },
+    {
+      "name": "fi(x,y)",
+      "type": "density function",
+      "properties": {
+        "source_chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "2e3e63f0-d725-4aad-b788-2394d91d15f0"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 10850-11250",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 10850,
+        "end_word": 11250,
+        "preview": "in two groups of equal size. Agents have linear preferences based on the evaluation measures νi(F) = ∫ F fi(x,y) d(x,y), computed using the densities f1(x,y) =    1 if (x,y) ∈A∪C, 3 2 if (x..."
+      },
+      "id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de"
+    },
+    {
+      "name": "2412.18875v2.pdf chunk 11200-11266",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "604e73c1-6a03-4127-a93c-f134278b5459",
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "start_word": 11200,
+        "end_word": 11266,
+        "preview": "and purchases the same amount of commodities of type B and D for a strictly higher price, in violation with the budget constraints. This stronger version of Example 4 exploits the property that every ..."
+      },
+      "id": "604e73c1-6a03-4127-a93c-f134278b5459"
+    },
+    {
+      "name": "C.D. Aliprantis",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "604e73c1-6a03-4127-a93c-f134278b5459",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "af3f1d59-9ab7-402d-95ba-3e6d5e898a7e"
+    },
+    {
+      "name": "O. Burkinshaw",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "604e73c1-6a03-4127-a93c-f134278b5459",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "id": "ecb701c2-8027-413f-bf0c-340dac8bd474"
+    }
+  ],
+  "links": [
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+      "key": "1e565a7a-d815-49ef-8088-3b57971106a5"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+      "key": "172e6ea6-ecbb-4e6d-93ad-efffad18ebc5"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "8abba056-4bb1-4866-817a-e7da9ab3d769"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "8abba056-4bb1-4866-817a-e7da9ab3d769",
+      "key": "00de6c8e-f2e1-4d12-bdf8-a3685efa8b6e"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "9919a380-2aa8-42e6-b942-ce6e00c8a897"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "9919a380-2aa8-42e6-b942-ce6e00c8a897",
+      "key": "b4bc7db2-3b0e-491d-9593-7d9b62cf01de"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+      "key": "1f71b55b-e9c3-4e93-ab7b-71545aea0e25"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "1e7d5a83-4693-430b-bc94-52512dcb474c"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "1e7d5a83-4693-430b-bc94-52512dcb474c",
+      "key": "c3f2473b-3942-4d61-a7c5-0dc1a04a25fd"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "850c8ea5-c824-406d-a654-57c668a266c7",
+      "key": "3a187ab2-cf08-406c-ace6-8b1a69e5064d"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "ff776425-7288-4774-899b-324a729ee286"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "ff776425-7288-4774-899b-324a729ee286",
+      "key": "157439da-cbed-4d3b-8006-09ceed3141b3"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+      "key": "3fd8a25b-af68-41c4-ac0b-7632792046a9"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+      "key": "4bf496da-4545-4330-ba3a-ab61d70a83bc"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+      "key": "157a1699-6c62-4f99-b748-f51855fb74cc"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+      "key": "e083f9bd-2ae7-4da6-a44c-602ab6300c1f"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+      "key": "baa94875-7bed-4946-8f5b-221c50d57426"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+      "key": "d2671af7-e529-45ba-a504-1cfb21a20c65"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+      "key": "dfc9daaf-71dc-47f7-9936-3a6cb58bbfd2"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "074a6bde-198f-487d-b96b-455fced7dd85"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "074a6bde-198f-487d-b96b-455fced7dd85",
+      "key": "460c3616-4d61-4346-8a58-70b190539a2e"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+      "key": "eb2981de-1e64-4358-a365-cfd67d1ae049"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "04246acf-c43a-45e5-b8b7-4e5777d47eb4",
+      "key": "bf4c17bb-f93a-40a0-b6f0-df6b8c503ba4"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "0495496e-c3db-47fb-b040-032635bb1ab9",
+      "key": "5f3c8d20-a1c9-4582-b3f6-9bebf1bcc3d2"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "62ae615a-8fe8-48e2-ba80-4d68a864cc01"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "62ae615a-8fe8-48e2-ba80-4d68a864cc01",
+      "key": "cd086ada-5d91-4e79-b6b1-2ee371541a54"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+      "key": "173357e2-77c7-4112-a06e-6ceb2950a529"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+      "key": "fc818115-6406-4051-98a0-5e19965558ae"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+      "key": "ce91be93-cff5-48ce-8aae-0afb957f9fd0"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "cb769784-d259-4df5-b842-6f55b74e6f93",
+      "key": "4118f189-5e83-4c20-b095-9de54209d65e"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+      "key": "2bbac9a3-2131-4203-8129-73001324d2d0"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "01401c54-be5e-4bec-b622-be7fba42700e",
+      "key": "4908f94d-e075-4ae1-aa34-800154b94377"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+      "key": "798a9cae-cbab-4fc8-9d69-17871c1a8c87"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+      "key": "7a5c1c5f-3bf5-403e-a524-fad06b166ac9"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "7368e606-995d-408f-a13d-723dedacf6e4",
+      "key": "7dfa4261-cfa8-4b63-b647-36494acfc15d"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+      "key": "5e1cc3f1-aa92-4b73-8ba6-aa5ac591aadb"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "ec23164d-ca83-435f-a371-c4313d4d83f9"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "ec23164d-ca83-435f-a371-c4313d4d83f9",
+      "key": "be90ab03-7081-4cd4-9650-11a5eec3e0f2"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+      "key": "3a53d7a1-0e7d-4212-a85f-50bf159bac18"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2412.18875v2.pdf",
+        "chunk_id": "604e73c1-6a03-4127-a93c-f134278b5459"
+      },
+      "source": "dc35ea65-be90-4d90-8cc7-38253a150e87",
+      "target": "604e73c1-6a03-4127-a93c-f134278b5459",
+      "key": "17946f90-bcf8-44a2-b326-9db51c87a5f9"
+    },
+    {
+      "type": "authorship",
+      "properties": {
+        "source_chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "17e776eb-3908-40e4-b8c2-d2a7e34a7aa3",
+      "target": "771724d7-51ee-48ac-909c-0f3e3252b446",
+      "key": "1825e928-2d23-475f-a737-a52d3d2da8ac"
+    },
+    {
+      "type": "affiliation",
+      "properties": {
+        "source_chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "70adbd30-2deb-46a7-a0c7-e5089fd31c96",
+      "target": "17e776eb-3908-40e4-b8c2-d2a7e34a7aa3",
+      "key": "a5a05304-e1a6-4f81-8ee8-dc0a4c65bb3e"
+    },
+    {
+      "type": "affiliation",
+      "properties": {
+        "source_chunk_id": "c7a7991b-0b02-40d4-9a87-74ee518224ea",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "70adbd30-2deb-46a7-a0c7-e5089fd31c96",
+      "target": "771724d7-51ee-48ac-909c-0f3e3252b446",
+      "key": "8fbc9aa3-68a2-410b-b5e4-97fe96f365a3"
+    },
+    {
+      "type": "location",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "12096bbe-4e0d-4d9b-83fb-c0243988fb20",
+      "target": "0396ce0c-d1ee-4270-a5f3-5f9ba9fdba8a",
+      "key": "39de050e-9688-4592-adb3-613fb7576250"
+    },
+    {
+      "type": "ownership",
+      "properties": {
+        "source_chunk_id": "3293bd01-8699-4aed-95b2-0c8e62852b41",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "10118774-c538-4393-8574-e272bfe7d6f5",
+      "target": "12096bbe-4e0d-4d9b-83fb-c0243988fb20",
+      "key": "34bd926d-3327-4bb0-9e38-7d616c1d4e46"
+    },
+    {
+      "type": "endowment",
+      "properties": {
+        "source_chunk_id": "9919a380-2aa8-42e6-b942-ce6e00c8a897",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d3a36577-4b44-42bc-8de7-c54c61c36dec",
+      "target": "795f1b48-fef6-4230-a38c-0694e5f6c7e4",
+      "key": "8afc9939-6b13-4e09-9dd4-f63b99466a70"
+    },
+    {
+      "type": "part-of",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d3a36577-4b44-42bc-8de7-c54c61c36dec",
+      "target": "d57c7ce8-c875-4b93-975e-96b23dbd94e4",
+      "key": "aaff9b3a-e80b-4f06-9957-9822109c825f"
+    },
+    {
+      "type": "allocation",
+      "properties": {
+        "source_chunk_id": "9919a380-2aa8-42e6-b942-ce6e00c8a897",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d57c7ce8-c875-4b93-975e-96b23dbd94e4",
+      "target": "795f1b48-fef6-4230-a38c-0694e5f6c7e4",
+      "key": "09496830-ab14-4ff0-8dea-6e41b14acb97"
+    },
+    {
+      "type": "classification_by",
+      "properties": {
+        "source_chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d57c7ce8-c875-4b93-975e-96b23dbd94e4",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "29b20234-1b4e-4dbb-b971-b8728cf0124e"
+    },
+    {
+      "type": "participated",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d57c7ce8-c875-4b93-975e-96b23dbd94e4",
+      "target": "5f5071cf-6056-4b14-b6f0-e286578315ee",
+      "key": "024b0b7b-48ad-4eed-b241-897911519165"
+    },
+    {
+      "type": "mixing/blending",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "8ade0945-3415-4f6b-b2f2-960a62e65e30",
+      "target": "c6415fe9-abea-429d-9307-87c69fe432cc",
+      "key": "c0efb93d-5624-4c8c-83ec-c19987f8f621"
+    },
+    {
+      "type": "classification",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "3569a21c-3077-44ef-a499-1c6e6efca418",
+      "key": "7d9b91fd-fabf-4074-a504-b0e7594772f7"
+    },
+    {
+      "type": "commodity_in",
+      "properties": {
+        "source_chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "3569a21c-3077-44ef-a499-1c6e6efca418",
+      "key": "c7e409df-e3f0-464b-89f3-106a437766ba"
+    },
+    {
+      "type": "based on",
+      "properties": {
+        "source_chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "e1d9c9bc-1758-4c3b-9da7-0cf385b1d747",
+      "key": "26c20702-435f-4361-9f6e-9225e51ac55b"
+    },
+    {
+      "type": "classification_of",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "e1d9c9bc-1758-4c3b-9da7-0cf385b1d747",
+      "key": "c05d6fa5-9c95-4e78-9f2a-bd68b95ce425"
+    },
+    {
+      "type": "claim_based_on",
+      "properties": {
+        "source_chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "d1902402-95b5-464a-9c67-ea1118176afb",
+      "key": "89a6fd2d-dadb-4712-9608-e98e85762acc"
+    },
+    {
+      "type": "classification claim",
+      "properties": {
+        "source_chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "d1902402-95b5-464a-9c67-ea1118176afb",
+      "key": "5d9b2a8a-6081-4423-a57c-0f465a6d211e"
+    },
+    {
+      "type": "classification",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "221aaadf-9d00-484f-ae1c-d0a9385b16f6",
+      "key": "ffb0d1b3-a657-4e18-a351-50b07a51cc07"
+    },
+    {
+      "type": "refinement",
+      "properties": {
+        "source_chunk_id": "074a6bde-198f-487d-b96b-455fced7dd85",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "f71a5b98-36ad-45ed-aeda-2d5c6379e046"
+    },
+    {
+      "type": "Refines",
+      "properties": {
+        "source_chunk_id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "ce7b7548-c74d-4e8e-8d39-7d5240a48d55"
+    },
+    {
+      "type": "refined_by",
+      "properties": {
+        "source_chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "1cea9336-f3e9-4658-b442-ea3474ef2f60"
+    },
+    {
+      "type": "classification_refinement",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "708ca8b7-d4fc-43e6-a2c2-3693e5250cf3"
+    },
+    {
+      "type": "refines",
+      "properties": {
+        "source_chunk_id": "fa1bb4fb-fa76-45e2-bc01-110b308c09de",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "ea7f23c9-482c-4f7e-b57e-5d3d8bc726d4"
+    },
+    {
+      "type": "includes",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "key": "580f442d-26e3-4e02-a22b-9703bdec7917"
+    },
+    {
+      "type": "includes",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "key": "94d80450-baeb-4607-af96-5d1b712756ae"
+    },
+    {
+      "type": "identification",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "ecf7558d-257b-4d72-b257-ce247d764cb9",
+      "key": "28a0c2d3-8d24-4413-bab9-d4a4205a7351"
+    },
+    {
+      "type": "classification",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "target": "3a561162-46e8-409c-8e92-b4740d640168",
+      "key": "142513d2-0893-47cb-b592-ebd328935d9b"
+    },
+    {
+      "type": "bundle representation",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "3ed86bed-6f57-4874-8769-6d6cfd7d7dda",
+      "target": "8f66a093-93ab-4886-b876-b640110dfd22",
+      "key": "d038005e-9954-4176-b23f-601186a5e103"
+    },
+    {
+      "type": "endowment assignment",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "00bfae12-c2ff-4b77-b4b4-d248c2e1b759",
+      "target": "76c6333d-86aa-4171-bf96-ce6d1552045a",
+      "key": "9e05f61b-dd05-4bd4-9eee-1d9c8093ad24"
+    },
+    {
+      "type": "restricted preference function inheritance",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "16ffbf32-9089-4afd-b1dd-aa9c0021031a",
+      "target": "42ad574b-5ad5-4cd6-afc4-e60d32e1d7ab",
+      "key": "6f1eaab0-1749-4fbc-8618-11a48aab82ca"
+    },
+    {
+      "type": "price allocation",
+      "properties": {
+        "source_chunk_id": "0ebe7110-ecc6-4412-81ec-c113f83034b9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "480d525c-cdf6-42bc-9396-47cb3ac25e53",
+      "target": "d1902402-95b5-464a-9c67-ea1118176afb",
+      "key": "3415fd7c-9950-4399-9e62-d3f41a518b29"
+    },
+    {
+      "type": "prices",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "480d525c-cdf6-42bc-9396-47cb3ac25e53",
+      "target": "3ed86bed-6f57-4874-8769-6d6cfd7d7dda",
+      "key": "67fd6ec4-70b2-4959-a6b6-d6a581cd8101"
+    },
+    {
+      "type": "prices",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "480d525c-cdf6-42bc-9396-47cb3ac25e53",
+      "target": "fa01030c-3a5e-4fdb-be82-8ca6ac857265",
+      "key": "cf3b7bc7-ee7c-436b-ac17-4c5d695733f0"
+    },
+    {
+      "type": "induced by",
+      "properties": {
+        "source_chunk_id": "1e7d5a83-4693-430b-bc94-52512dcb474c",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "16a45728-9cc7-4e14-8132-2ad73fdfb79a",
+      "target": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411",
+      "key": "e58515b7-e90f-4301-bbfb-9cd394881eca"
+    },
+    {
+      "type": "allocated_to",
+      "properties": {
+        "source_chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411",
+      "target": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "key": "d6b29f1d-6c0f-4334-b2a6-7d2b75905e44"
+    },
+    {
+      "type": "function application",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411",
+      "target": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "key": "a42198f1-be7d-47ff-8d5d-75a06ab5ee7b"
+    },
+    {
+      "type": "function application",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411",
+      "target": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "key": "a53c9adc-357b-4c1d-a4b1-11a5ce3f15b1"
+    },
+    {
+      "type": "based on",
+      "properties": {
+        "source_chunk_id": "48f43151-1245-43c5-8d9e-bfa6e86b8526",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "8535bd46-dcc6-48d5-a0f3-be6da15cc132",
+      "key": "602257af-9179-4093-866d-d37fff6c2070"
+    },
+    {
+      "type": "measure evaluation measure",
+      "properties": {
+        "source_chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "8535bd46-dcc6-48d5-a0f3-be6da15cc132",
+      "key": "1cd5a395-6e0d-4af8-8e85-3fed84c564b9"
+    },
+    {
+      "type": "measure_for",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "8535bd46-dcc6-48d5-a0f3-be6da15cc132",
+      "key": "d0779655-90dd-4dc4-95b5-30188222597c"
+    },
+    {
+      "type": "measure evaluation measure",
+      "properties": {
+        "source_chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "2a593123-ce50-4342-8521-fc7f0905664e",
+      "key": "2dfef0bd-0b36-487e-845a-732b81a4dd6f"
+    },
+    {
+      "type": "measure_for",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "2a593123-ce50-4342-8521-fc7f0905664e",
+      "key": "1465a723-f288-466f-bebf-e8c87b2fa1ac"
+    },
+    {
+      "type": "defined on",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "16a45728-9cc7-4e14-8132-2ad73fdfb79a",
+      "key": "4be6c03c-6cfb-4dec-a51a-411558861ece"
+    },
+    {
+      "type": "measure_for",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "fe950ae4-aca5-4eec-b9e5-76b95b6e0b49",
+      "key": "ee0e4d8b-0494-4bdf-8159-ff6e0710ee19"
+    },
+    {
+      "type": "measure_for",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "target": "0c8f180e-2ed9-49d0-9eb5-75a8332ec656",
+      "key": "5e6abd2f-d079-41fc-a0c5-d162a9ac3af5"
+    },
+    {
+      "type": "absolutely continuous with respect to",
+      "properties": {
+        "source_chunk_id": "1e7d5a83-4693-430b-bc94-52512dcb474c",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "2047f7e8-815b-4374-83fb-f28b8ecc75ff",
+      "target": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "key": "bb1e4c9c-4dd3-4e6e-934d-f5f1c62b4ef0"
+    },
+    {
+      "type": "alternative classification",
+      "properties": {
+        "source_chunk_id": "850c8ea5-c824-406d-a654-57c668a266c7",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "67548571-4e9e-4ae5-98d7-e20c8a79ebb7",
+      "target": "b4e57a44-699b-4938-9e7b-0e4210c131e4",
+      "key": "dece7813-cd1c-4176-a559-1780ee3b37ac"
+    },
+    {
+      "type": "supports",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "1d1c4088-4f9a-4ab8-b466-2425e315918d",
+      "target": "da2c9114-a36c-4229-88c2-d2b9a85cccaa",
+      "key": "2612d911-267a-4a5d-9a2d-e93b254a08d7"
+    },
+    {
+      "type": "implies",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "da2c9114-a36c-4229-88c2-d2b9a85cccaa",
+      "target": "2cd98387-7488-4550-afb2-bb5cb8491f50",
+      "key": "0b539ff9-c66c-4da6-a82d-87aa2a9f7b37"
+    },
+    {
+      "type": "metric space",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "43daf3ee-307b-48c0-9c81-c3d28abd4ce3",
+      "target": "4848ab8b-25ca-4aa3-9600-1b9f4d6c46a7",
+      "key": "28de176a-4445-4cb8-897b-6c35e6305b9f"
+    },
+    {
+      "type": "composition",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "43daf3ee-307b-48c0-9c81-c3d28abd4ce3",
+      "target": "adeee49b-a9a8-4013-8951-914bbf0f04f4",
+      "key": "001604b5-8c94-48d6-9b31-24c86cf1f8f4"
+    },
+    {
+      "type": "correspondence",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e1d9c9bc-1758-4c3b-9da7-0cf385b1d747",
+      "target": "02d3096f-edfd-4ef8-963a-d7b45ed2c11f",
+      "key": "a1d83798-8d9a-49ab-bb2a-8e1d57f96510"
+    },
+    {
+      "type": "has commodity",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e1d9c9bc-1758-4c3b-9da7-0cf385b1d747",
+      "target": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "key": "e7e73823-98f4-47d3-9444-4f59e7f8ca29"
+    },
+    {
+      "type": "has commodity",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e1d9c9bc-1758-4c3b-9da7-0cf385b1d747",
+      "target": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "key": "4f6a3cec-3617-4cfc-9c9d-fb112850e1e4"
+    },
+    {
+      "type": "corresponds to",
+      "properties": {
+        "source_chunk_id": "ff776425-7288-4774-899b-324a729ee286",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "6b36a568-dda8-47b7-8c6c-90a9885d6bf0",
+      "target": "2cd98387-7488-4550-afb2-bb5cb8491f50",
+      "key": "ade8cbb0-d940-4899-92eb-c1642db76eb5"
+    },
+    {
+      "type": "commodity commodity",
+      "properties": {
+        "source_chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "target": "37f24df7-8b62-4ee6-9952-72673673fc7d",
+      "key": "eebfca91-de2a-42a0-a059-612b8a00e744"
+    },
+    {
+      "type": "comparative statics",
+      "properties": {
+        "source_chunk_id": "64ef0394-67e2-4b97-8fd1-caca1cd39231",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "target": "37f24df7-8b62-4ee6-9952-72673673fc7d",
+      "key": "570df27d-74ab-42b3-b611-5747cb3589c4"
+    },
+    {
+      "type": "Complementary Goods",
+      "properties": {
+        "source_chunk_id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "target": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "key": "e4a7a2b5-23d4-4797-acf0-fbb7406c236a"
+    },
+    {
+      "type": "contains",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "target": "b925cdf9-2370-461a-b7db-4ebe8078a6b1",
+      "key": "f56f1f04-29f4-4782-a295-ed4e29b309e8"
+    },
+    {
+      "type": "contains",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "target": "9528f67d-83cf-41b9-b0c2-ac7ead8b255b",
+      "key": "9086effc-4124-4f0e-8fe5-66618895108b"
+    },
+    {
+      "type": "contains",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "target": "58c994c9-431a-448d-bb35-1f6790d82f3e",
+      "key": "3aa9e209-3bf3-41a3-9636-cd2cf3e198eb"
+    },
+    {
+      "type": "contains",
+      "properties": {
+        "source_chunk_id": "bd2a0d12-b3c0-49b0-a9b7-227daf6894c6",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "target": "8fa9a1ca-cb61-4a84-b1d4-2b8c8a85395b",
+      "key": "8f6a1a1b-17d0-4286-a23a-7e31f02de94c"
+    },
+    {
+      "type": "utility_for",
+      "properties": {
+        "source_chunk_id": "e06a9517-87f7-4d24-84e0-dbc17d3f6317",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "target": "6b1c0f48-b705-430c-a95a-9b1687b29311",
+      "key": "90a2bd80-bcde-4673-8af8-af37f7913e23"
+    },
+    {
+      "type": "refines_classification",
+      "properties": {
+        "source_chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "target": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "key": "0f3773e6-f623-4302-a4b3-7215e0197c8f"
+    },
+    {
+      "type": "based on",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "8535bd46-dcc6-48d5-a0f3-be6da15cc132",
+      "target": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411",
+      "key": "a34f80bc-01ee-4f22-9b33-0f05c5295f10"
+    },
+    {
+      "type": "based on",
+      "properties": {
+        "source_chunk_id": "73b5998e-4a9b-4958-a0c5-2945cda7d9a9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "2a593123-ce50-4342-8521-fc7f0905664e",
+      "target": "e91b5a6c-d2f9-4bf4-a5d7-4f9352f4f411",
+      "key": "ab253952-8d53-4243-9d1c-a5098ccb3414"
+    },
+    {
+      "type": "commodity commodity",
+      "properties": {
+        "source_chunk_id": "63ac9346-2f7b-470e-9eac-c5c3cfa49c51",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e5597791-db5a-41c6-bdd8-69785c792b2d",
+      "target": "8b433b29-5aaa-4ce6-9de3-22934d93de32",
+      "key": "c5ef759d-90b4-48f0-8ba8-1a2eb8c7c72c"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "6b1243b6-61ed-47a2-84e3-81a44bbd4562",
+      "target": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "key": "00c53ea5-ad77-421d-9253-701b9af509ce"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "6b1243b6-61ed-47a2-84e3-81a44bbd4562",
+      "target": "e5597791-db5a-41c6-bdd8-69785c792b2d",
+      "key": "4213e1fd-39f8-4fe1-9610-7bbb9fb8e04e"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "6b1243b6-61ed-47a2-84e3-81a44bbd4562",
+      "target": "8b433b29-5aaa-4ce6-9de3-22934d93de32",
+      "key": "56cddee2-066d-49fd-818b-76e7025f3ab0"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "6b1243b6-61ed-47a2-84e3-81a44bbd4562",
+      "target": "37f24df7-8b62-4ee6-9952-72673673fc7d",
+      "key": "c23a160a-d314-4d4f-9a73-7b3c69ed85a5"
+    },
+    {
+      "type": "defined_in",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d76557a2-3b66-4d5e-a987-bde02cd901d6",
+      "target": "221aaadf-9d00-484f-ae1c-d0a9385b16f6",
+      "key": "bfab1701-d157-4895-8c1b-9a7c13b22b8b"
+    },
+    {
+      "type": "derived_from",
+      "properties": {
+        "source_chunk_id": "c2ffd991-60fe-48a2-9076-13c9bfc80fa0",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "8b34699f-2edb-4cdb-b40f-2e60e0766918",
+      "target": "d76557a2-3b66-4d5e-a987-bde02cd901d6",
+      "key": "862220db-18a7-448c-9b54-dc0d4f36e84b"
+    },
+    {
+      "type": "continuous function",
+      "properties": {
+        "source_chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "2db62e73-bbc6-45ed-b1d1-7d40e6b9257a",
+      "target": "43daf3ee-307b-48c0-9c81-c3d28abd4ce3",
+      "key": "6d1a9bb4-4767-40be-b5c8-1df4fad2d2ee"
+    },
+    {
+      "type": "related to",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "7f0b0ad1-a28e-4dd4-831c-bd12b7d9c41d",
+      "target": "f72b6038-02dd-4008-91b2-dd03c84c9189",
+      "key": "606670f6-4d6b-489e-896e-832f334aa883"
+    },
+    {
+      "type": "disputed commodity",
+      "properties": {
+        "source_chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e936f98f-1562-4fc5-8b8d-5d6e4b7138f4",
+      "target": "3a345fa2-455b-4f7d-af9a-181c2a09d1ce",
+      "key": "ec9ebd52-033a-4a0b-a068-6bff4891bf54"
+    },
+    {
+      "type": "bundled commodity",
+      "properties": {
+        "source_chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e936f98f-1562-4fc5-8b8d-5d6e4b7138f4",
+      "target": "7f0b0ad1-a28e-4dd4-831c-bd12b7d9c41d",
+      "key": "55ed3bb4-a342-4b21-b808-fd812921a7a6"
+    },
+    {
+      "type": "allocation",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "e936f98f-1562-4fc5-8b8d-5d6e4b7138f4",
+      "target": "3ed86bed-6f57-4874-8769-6d6cfd7d7dda",
+      "key": "a0982bc6-ec23-40aa-b3a8-d464193891c6"
+    },
+    {
+      "type": "allocation",
+      "properties": {
+        "source_chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "8786880c-5f28-45a5-8ed3-aa384ba04a35",
+      "target": "7f0b0ad1-a28e-4dd4-831c-bd12b7d9c41d",
+      "key": "e7266ee9-1f80-46c7-9363-f159f40f4e68"
+    },
+    {
+      "type": "allocation",
+      "properties": {
+        "source_chunk_id": "9bb0879a-6ee4-4057-9e0d-e5022e157416",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "7665b21c-a0ef-4e40-aaef-5e9e36eae25f",
+      "target": "3a345fa2-455b-4f7d-af9a-181c2a09d1ce",
+      "key": "f1746a9b-7405-4a1b-aee7-c000d0dc4de6"
+    },
+    {
+      "type": "dependent_variable",
+      "properties": {
+        "source_chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d81f70bf-f82d-472b-9321-7b2d34af2b3e",
+      "target": "1e530f24-2e67-4429-a1ec-d6ed365c6adf",
+      "key": "c2a491d1-70cd-4782-a18f-aac72023f655"
+    },
+    {
+      "type": "dependent_variable",
+      "properties": {
+        "source_chunk_id": "323aa7ff-4612-4edd-974e-04e98c1ecb79",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "9d5ab2ff-2a33-4aff-beb7-89c933b1785d",
+      "target": "1e530f24-2e67-4429-a1ec-d6ed365c6adf",
+      "key": "e74943bd-bfd6-4ec7-aab3-3cc1bbfc9dd8"
+    },
+    {
+      "type": "Related To",
+      "properties": {
+        "source_chunk_id": "04246acf-c43a-45e5-b8b7-4e5777d47eb4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "f1999fb1-d7eb-40e8-a235-39aaa88d5dd2",
+      "target": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "key": "a060af6f-636e-4132-8feb-b655e51d830b"
+    },
+    {
+      "type": "designed",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "71089f8b-710b-4c34-b0df-2ea6e61f5fdb",
+      "target": "5f5071cf-6056-4b14-b6f0-e286578315ee",
+      "key": "5c163376-a2a3-44be-ad49-9f0049caa2d1"
+    },
+    {
+      "type": "generated",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "5f5071cf-6056-4b14-b6f0-e286578315ee",
+      "target": "614c0ff0-9200-4d64-8180-466c192d14d4",
+      "key": "fa899d5d-5ef3-424b-b9b8-f74bca8af72e"
+    },
+    {
+      "type": "classified",
+      "properties": {
+        "source_chunk_id": "0495496e-c3db-47fb-b040-032635bb1ab9",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "28498d2a-9848-4131-9c9c-677fdd96c687",
+      "target": "6b1243b6-61ed-47a2-84e3-81a44bbd4562",
+      "key": "36d4bf7a-cc53-449c-8c0c-3bcb7aeca930"
+    },
+    {
+      "type": "maps",
+      "properties": {
+        "source_chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "98b4da0c-86c7-46d5-8ab7-2a08122f5512",
+      "target": "b355b01a-36fb-4275-9f9f-180a1fe070e7",
+      "key": "cf089909-e8f9-49ca-b4eb-2fbda9917357"
+    },
+    {
+      "type": "maps",
+      "properties": {
+        "source_chunk_id": "a06c87a3-e0bd-4e93-bd2c-a49c757b180e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "98b4da0c-86c7-46d5-8ab7-2a08122f5512",
+      "target": "2fa83a33-a093-4245-8ae5-4ccf75d0e9e0",
+      "key": "3a3aa887-4582-47e7-b932-8f9649990fbe"
+    },
+    {
+      "type": "composition",
+      "properties": {
+        "source_chunk_id": "b2d8ea51-f39f-473f-bbc8-8224cc3ac5ca",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "1f10c59d-3af8-4115-8310-1bf38bbada93",
+      "target": "6f7cfae9-65f7-4039-8633-922496fab7c6",
+      "key": "368589d7-4583-4c3d-b448-0ee03bb493a3"
+    },
+    {
+      "type": "Supports",
+      "properties": {
+        "source_chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "74423cf1-ee5a-4f60-b026-10367f189aa8",
+      "target": "3a078be5-a7a0-46f9-b46e-497676bc8c92",
+      "key": "534d75f7-c6a3-4fcc-8858-188db863407c"
+    },
+    {
+      "type": "Models",
+      "properties": {
+        "source_chunk_id": "a293247d-cbc6-4dc4-a2f1-fb763ab0ad7a",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "0a32cfb7-9b8c-4955-81ee-9b92e2680935",
+      "target": "8fbe0e5b-12bf-4114-be9c-f4a1c80d74ba",
+      "key": "8b61fce7-c578-4b8c-849b-6e622d530e20"
+    },
+    {
+      "type": "Publication",
+      "properties": {
+        "source_chunk_id": "cb769784-d259-4df5-b842-6f55b74e6f93",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "73b78216-a7cc-4e48-b8e7-01f1915a9c33",
+      "target": "1271ee67-ef4d-43fc-8095-84a2d395113b",
+      "key": "a0a82a88-9090-48e8-bc77-104377bd8a47"
+    },
+    {
+      "type": "measured_by",
+      "properties": {
+        "source_chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "fcd9ffc3-b29d-4ab3-b480-99ca2825614b",
+      "target": "9d368843-3809-4ba7-b918-57aede55e56b",
+      "key": "a5d3ce50-cee8-46c4-9bae-a528fe79f513"
+    },
+    {
+      "type": "subset_of",
+      "properties": {
+        "source_chunk_id": "0eba49f6-aace-4f0a-98fa-97b1d70c312f",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "3a561162-46e8-409c-8e92-b4740d640168",
+      "target": "16a45728-9cc7-4e14-8132-2ad73fdfb79a",
+      "key": "603f19dc-56b1-4cba-b3d8-cb3173c43958"
+    },
+    {
+      "type": "membership",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "8ce4c616-4552-48ab-924c-ab6e13745d32",
+      "target": "04c1c2bf-c3e6-4bec-afde-dd82f8c6df3d",
+      "key": "fde08334-0243-4310-8930-ba915be79889"
+    },
+    {
+      "type": "membership",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "bb699907-d430-4ce4-8cb1-303795ba6558",
+      "target": "7c835bde-987d-4b2c-9369-c4748e96eca7",
+      "key": "0e3642d6-2bb4-45fc-8fba-9447dacc2cd6"
+    },
+    {
+      "type": "allocation",
+      "properties": {
+        "source_chunk_id": "01401c54-be5e-4bec-b622-be7fba42700e",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "86bf3076-230b-4930-ae62-a9dfb0320b53",
+      "target": "fa01030c-3a5e-4fdb-be82-8ca6ac857265",
+      "key": "a42ef00a-0787-4e96-9b56-5bfda4d87d96"
+    },
+    {
+      "type": "disputes with",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "f72b6038-02dd-4008-91b2-dd03c84c9189",
+      "target": "86bf3076-230b-4930-ae62-a9dfb0320b53",
+      "key": "63deb206-5223-465c-bcfd-b797a23aed9c"
+    },
+    {
+      "type": "disputes with",
+      "properties": {
+        "source_chunk_id": "d0f5f140-642a-4a6b-b0ea-59cd3b1a0a4d",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "f72b6038-02dd-4008-91b2-dd03c84c9189",
+      "target": "3a345fa2-455b-4f7d-af9a-181c2a09d1ce",
+      "key": "1c402187-a566-4c6b-adda-44cba5e7a580"
+    },
+    {
+      "type": "parameter_relation",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d32a261c-53a8-4e4f-af54-2d9dbeb125d7",
+      "target": "14a50678-5b84-469f-8cf1-1b4a4bf9bdbb",
+      "key": "354d9790-6904-421f-ba4f-5436a39d3d51"
+    },
+    {
+      "type": "equilibrium_price",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "14a50678-5b84-469f-8cf1-1b4a4bf9bdbb",
+      "target": "6fe93c9f-c9be-4555-a3ff-b71db3f3c7ed",
+      "key": "2c7657a0-4e6e-473f-aac7-b0433f894131"
+    },
+    {
+      "type": "commodity_equivalence",
+      "properties": {
+        "source_chunk_id": "7368e606-995d-408f-a13d-723dedacf6e4",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "5275afd7-6ade-4a3c-99f4-a084ec58811e",
+      "target": "53cfaab2-5dd0-4426-9304-8a0d183863b2",
+      "key": "edd63dbd-e2f9-4af5-bbf1-a73a4246112c"
+    },
+    {
+      "type": "related-to",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "d98e3b7e-d4b0-48ec-a970-f2f8a2a1f43b",
+      "target": "2a1812b5-e2aa-46c8-b54b-9fc0cf5c9b7c",
+      "key": "4ea34e58-cccc-40ed-84fe-e8187f7dfb0e"
+    },
+    {
+      "type": "classified-by",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "63e61fd7-2712-428f-84ce-0fc7863d7479",
+      "target": "be7b92e4-a0ad-4de4-9022-f47b55869f25",
+      "key": "0aea3bc1-b394-42b0-a65d-223a1f071d68"
+    },
+    {
+      "type": "related-to",
+      "properties": {
+        "source_chunk_id": "47f8b6f8-a864-4bf9-9a13-ccc62cd50540",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "bba47885-8956-4379-9018-d8db579c11f1",
+      "target": "d3a36577-4b44-42bc-8de7-c54c61c36dec",
+      "key": "d8b40a19-8ee6-4808-90b3-d20aca490a69"
+    },
+    {
+      "type": "co-author",
+      "properties": {
+        "source_chunk_id": "604e73c1-6a03-4127-a93c-f134278b5459",
+        "source_file": "data\\raw\\2412.18875v2.pdf"
+      },
+      "source": "af3f1d59-9ab7-402d-95ba-3e6d5e898a7e",
+      "target": "ecb701c2-8027-413f-bf0c-340dac8bd474",
+      "key": "a3d30efc-f81e-428a-b7f1-39c1f0443a2c"
+    }
+  ]
+}

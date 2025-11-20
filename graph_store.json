@@ -1,0 +1,3641 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "name": "Source: 2401.14452v2.pdf",
+      "type": "SourceDocument",
+      "properties": {
+        "path": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3a5309c7-ff6c-436e-b89a-015a34bfd750"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 0-400",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 0,
+        "end_word": 400,
+        "preview": "The Kalb-Ramond field and Gravitational Parity Violation Tucker Manton1,∗ and Stephon Alexander 1,† 1Department of Physics, Brown University, Providence, RI 02912, USA (Dated: October 30, 2025) Gravit..."
+      },
+      "id": "c66cb585-7f78-4eef-abac-40aedeb51e1c"
+    },
+    {
+      "name": "Kalb-Ramond field",
+      "type": "field",
+      "properties": {
+        "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f5576fac-f7be-46b1-b7b7-052f2c574f3b"
+    },
+    {
+      "name": "Gravitational Parity Violation",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2e0259d2-490f-4dc5-9d1d-4afe86f7d252"
+    },
+    {
+      "name": "Tucker Manton",
+      "type": "person",
+      "properties": {
+        "email": "tucker manton@brown.edu",
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "71921ed3-fc67-496e-a2a5-e82307cbe6b4"
+    },
+    {
+      "name": "Stephon Alexander",
+      "type": "person",
+      "properties": {
+        "email": "stephon alexander@brown.edu",
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "38cb673d-9025-402c-b584-8a9d0493b160"
+    },
+    {
+      "name": "LIGO-Virgo-Kagra collaboration",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "63ed26e6-1451-410e-a5bb-fde55eedeb56"
+    },
+    {
+      "name": "pulsar timing array collaborations",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "0cd9c778-3210-4483-b775-c4c89f9d638b"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 350-750",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 350,
+        "end_word": 750,
+        "preview": "This includes a preheating mechanism [16], lep- togenesis [17], as well as the potential for parity violation to be detected in large-scale structure via galaxy corre- lations [18]. Perturbations to r..."
+      },
+      "id": "4e633458-7edf-4a79-aa98-33d313e62c25"
+    },
+    {
+      "name": "Brown University",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f24513aa-77c4-4ac1-935f-6fa67be6e0d4"
+    },
+    {
+      "name": "dCS theory",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3aef6c70-fa7b-4584-b971-0fc107e6ef16"
+    },
+    {
+      "name": "standardf(R) modified gravity theories",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1972edbb-8660-4fbc-8122-fe070d63ae94"
+    },
+    {
+      "name": "string axiverse",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ef54d748-c22d-44e0-96dc-bf69d8f1cbf6"
+    },
+    {
+      "name": "ghost-free higher derivative models",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e2837716-2e04-49bb-86a8-de0868195d83"
+    },
+    {
+      "name": "Ostrogradsky instabilities",
+      "type": "phenomenon",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "cb768f10-f034-4d03-90a3-ecd3bb73a78a"
+    },
+    {
+      "name": "Hoˆ rava-Lifshitz approach to quantum gravity",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "17ca7958-0f25-457f-8d25-1b80c68a30c4"
+    },
+    {
+      "name": "Pontryagin density",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "56646f92-78f9-408e-8d74-ec83d8e19c36"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 700-1100",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 700,
+        "end_word": 1100,
+        "preview": "the Levi-Civita and either non-metricity or torsion tensors are expected on general grounds, which has been known since the late 1970’s [38]. The authors of [1] analyzed many of these examples, notabl..."
+      },
+      "id": "2774216e-0d4a-40e8-a037-b48c4f048c2e"
+    },
+    {
+      "name": "Levi-Civita",
+      "type": "tensor",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d93ded96-3643-4e13-a386-ddb3a8dbdedd"
+    },
+    {
+      "name": "Chern-Simons",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c6a57a46-2ab5-4937-a7b5-d91126d6d51a"
+    },
+    {
+      "name": "Hoˆ rava-Lifshitz",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b79eed42-33e1-4075-811d-75d20c151638"
+    },
+    {
+      "name": "dCS",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "956ddfa1-9008-448c-a724-8027279401a1"
+    },
+    {
+      "name": "Riemann tensor",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "223fe9ff-0757-463a-b76a-d9d0f51d2591"
+    },
+    {
+      "name": "Einstein-Hilbert Lagrangian",
+      "type": "Lagrangian",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "45250a63-3a89-4d9b-9a07-cb076ea1e10b"
+    },
+    {
+      "name": "graviton",
+      "type": "particle",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f63c7758-f256-4471-b358-284930766494"
+    },
+    {
+      "name": "FLRW metric",
+      "type": "metric",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3beef873-5b62-43b1-8c8e-66beb72fd87e"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 1050-1450",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 1050,
+        "end_word": 1450,
+        "preview": "FLRW metric in conformal coordinates, d¯s2 =a(η) 2\u0000 −dη 2 +dx 2 +dy 2 +dz 2\u0001 .(5) Parity violating effects in the gravitational sector generically demand a non-minimal coupling to matter, such as the ..."
+      },
+      "id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6"
+    },
+    {
+      "name": "FLRW",
+      "type": "metric",
+      "properties": {
+        "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6df48a6c-7be3-4c86-8ed1-2695ce45076a"
+    },
+    {
+      "name": "Kalb-Ramond (KR) two-form field",
+      "type": "field",
+      "properties": {
+        "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3ea346aa-40cf-43ea-93e5-bdfd006e7953"
+    },
+    {
+      "name": "Kalb-Ramond-like-particles (KRLPs)",
+      "type": "particles",
+      "properties": {
+        "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4fe31fae-6ffa-41dd-ace4-f51db080de7d"
+    },
+    {
+      "name": "SM",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "057b4398-e4b2-405e-b471-37b0b20b4ac0"
+    },
+    {
+      "name": "Lorentz group",
+      "type": "group",
+      "properties": {
+        "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "94f211de-7577-47c5-8893-626d9c1748f8"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 1400-1800",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 1400,
+        "end_word": 1800,
+        "preview": "in the conclusion. However, to the best of our knowledge, (6) has not been studied in the context of parity violation 2. This paper is organized as follows. In Sec. II, we dis- cuss aspects of the fre..."
+      },
+      "id": "06def514-2dee-427e-90f8-97cd82918b81"
+    },
+    {
+      "name": "KR Lagrangian",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7b7ad917-220b-45ed-ba03-205a6bedd067"
+    },
+    {
+      "name": "free KR Lagrangian",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "33c527a8-4301-46ba-937c-c1404e00141e"
+    },
+    {
+      "name": "interaction (6)",
+      "type": "interaction",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b9b8533b-08c3-4d95-a582-07b790dd1a4d"
+    },
+    {
+      "name": "Maxwell fields",
+      "type": "fields",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d13edeab-d327-4319-baf0-4dd6ce647b88"
+    },
+    {
+      "name": "KR axion",
+      "type": "axion",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ab92af3f-705b-4724-8099-68141394d595"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 1750-2150",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 1750,
+        "end_word": 2150,
+        "preview": "the interaction (6) has analogies to the Proca theory of a massive vector boson, which is known to be dual to the massive KR field in certain regimes [41, 60]. Regarding interactions with the gravi- t..."
+      },
+      "id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39"
+    },
+    {
+      "name": "Proca theory",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "0a4e23f9-bb99-4c8a-a0a0-85f9edeed046"
+    },
+    {
+      "name": "KR field",
+      "type": "field",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1c3984b1-3373-4514-9700-d16dd8fb0116"
+    },
+    {
+      "name": "gravitational waves",
+      "type": "waves",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f87e69d1-cf0d-4202-a4ce-68f322eb8353"
+    },
+    {
+      "name": "Lagrange density",
+      "type": "density",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f83b9d7f-7050-47d5-bc83-0c0dc9893fb7"
+    },
+    {
+      "name": "fermions",
+      "type": "particles",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "64a9dca3-923e-454b-a144-8d4964997875"
+    },
+    {
+      "name": "vector field",
+      "type": "field",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "648944a4-c864-41d6-872e-98b1b4346b64"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 2100-2500",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 2100,
+        "end_word": 2500,
+        "preview": "parts of the KR field, respectively. It then follows that the minimum of the potential is at v= p V2m − V2e ,(14) independent of the background evolution of the space- time. It is also natural to expe..."
+      },
+      "id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d"
+    },
+    {
+      "name": "v",
+      "type": "velocity",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7dc4aae0-b7e1-4530-8bfd-5f88b29ed94a"
+    },
+    {
+      "name": "p",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9c96d4fc-8d51-439f-ac05-2d371229f06f"
+    },
+    {
+      "name": "V2m",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "738cd687-4a72-4451-84a4-43efaefe4ba3"
+    },
+    {
+      "name": "V2e",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b6001ec5-f64a-41f9-b4da-071bc5bdb5fc"
+    },
+    {
+      "name": "Hubble parameter",
+      "type": "physical constant",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4eb95fe6-3ac9-49d1-9f41-1f06ae08fd04"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 2450-2850",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 2450,
+        "end_word": 2850,
+        "preview": "we derive the equations of motion covariantly. In particular, we have that Pµνρσ = 1 3 \u0010 ˜BµνBρσ +B µν ˜Bρσ \u0011 + 1 6 \u0010 ˜BµρBνσ +B µρ ˜Bνσ + ˜BρνBµσ +B ρν ˜Bµσ \u0011 . (19) It is tedious but straightforward..."
+      },
+      "id": "45b423cf-7e52-457b-a7fb-84ca4791578f"
+    },
+    {
+      "name": "P",
+      "type": "tensor",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c"
+    },
+    {
+      "name": "B",
+      "type": "field",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "08fc16e3-6a9e-41ae-9422-acbc957b728f"
+    },
+    {
+      "name": "Levi-Civita symbol",
+      "type": "symbol",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "25de6fa4-bb08-42aa-bcec-ef2737e55002"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 2800-3200",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 2800,
+        "end_word": 3200,
+        "preview": "R,L + n 2H+λ R,L ∞X n=1 kn h αn(η) (ΛPVa)n H+ βn(η) (ΛPVa)n−1 io h′ R,L +k 2 n 1 +λ R,L ∞X m=0 km−1 h γm(η) (ΛPVa)m H+ δm(η) (ΛPVa)m−1 io hR,L = 0, (29) 5 where primes denote partial derivatives with ..."
+      },
+      "id": "818ad297-e393-4029-a445-d898f0c822be"
+    },
+    {
+      "name": "η",
+      "type": "conformal time",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "372bc63a-3757-498d-8b30-dd775e38481b"
+    },
+    {
+      "name": "H",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "38ff0f81-def6-4d57-9bb7-101dcbf102c1"
+    },
+    {
+      "name": "λ R,L",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9f8bce1d-b1bc-4973-8e62-bd97b27d7ce3"
+    },
+    {
+      "name": "Λ PV",
+      "type": "EFT cutoff",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "20162cf5-7b7e-4afd-83ab-57e38a19dd82"
+    },
+    {
+      "name": "V e",
+      "type": "potential",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f8003ac5-9022-4dd3-9ade-b156631d9762"
+    },
+    {
+      "name": "V m",
+      "type": "potential",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d4062b14-4b8f-413d-8b1e-86aa88923beb"
+    },
+    {
+      "name": "m p",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c9bdafba-bfee-43b6-93d2-bf22b1f1b0b5"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 3150-3550",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 3150,
+        "end_word": 3550,
+        "preview": "subscript onα, β, γ, δdenote their late time, slowly varying approximations. Our solution hasγ 0 = −ξ˜v2,thus onlym= 0 is nontrivial. In the exponent, we therefore havez 0 = ln(1 +z), and our solution..."
+      },
+      "id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc"
+    },
+    {
+      "name": "ξ",
+      "type": "dimensionless coupling constant",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "5e7617d0-c3c6-426c-99ea-17ba27708929"
+    },
+    {
+      "name": "k",
+      "type": "wavenumber",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d540d9f1-02ed-415a-9520-f7dcb358e679"
+    },
+    {
+      "name": "ω",
+      "type": "frequency",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bbe90914-4abf-45fa-abee-53b6afd99c99"
+    },
+    {
+      "name": "λ",
+      "type": "parameter",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "17e78ec9-793d-410c-8f79-af38e0afcf5b"
+    },
+    {
+      "name": "R",
+      "type": "amplitude",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f77d2503-9dbe-42d4-9185-092bab7030ed"
+    },
+    {
+      "name": "L",
+      "type": "amplitude",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "221f2aed-b654-497d-b86c-e9d3c7d3ff01"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 3500-3900",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 3500,
+        "end_word": 3900,
+        "preview": "parity violation to be observed in gravitational wave detectors was suggested well over 10 years ago [67, 68]. The data currently being gath- ered from merger processes [2–5] can in principle con- str..."
+      },
+      "id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c"
+    },
+    {
+      "name": "parity violation",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a93c9958-7ea4-4d3c-8b04-654a58f5e428"
+    },
+    {
+      "name": "gravitational wave detectors",
+      "type": "device",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "28bfab75-e483-4e8c-8ebd-084534f81d2e"
+    },
+    {
+      "name": "merger processes",
+      "type": "process",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "53221f99-7744-4346-8ff3-f38df6d259ea"
+    },
+    {
+      "name": "pulsar timing arrays",
+      "type": "device",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ef2cf9a5-f335-4b9c-bee2-5af7e4753a96"
+    },
+    {
+      "name": "gamma ray burst (GRB)",
+      "type": "event",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "73caef08-615e-49a6-8205-ed0a58bef158"
+    },
+    {
+      "name": "Einstein Telescope",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "80d72f7e-6f1b-4a48-80ea-14416bc700dc"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 3850-4250",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 3850,
+        "end_word": 4250,
+        "preview": "not yet known, redshift determination is not feasible. If the GW background is determined to be dominantly caused by the physics of inflation, (43) will be useful in constraining the energy scale of t..."
+      },
+      "id": "c554b056-f67f-4bba-a9fe-6d46be2b507f"
+    },
+    {
+      "name": "Cosmic Explorer",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7b87eff9-c4a6-44b0-89a6-0cedbee408fe"
+    },
+    {
+      "name": "General Relativity",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7f177967-3f59-4b51-9a53-f3b10199ddf7"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 4200-4600",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 4200,
+        "end_word": 4600,
+        "preview": "in [56], where the authors derived rea- sonable constraints on the Lorentz violating coefficients present in certain non-minimal curvature couplings (see, e.g. [80–87]). However, such modes do not pla..."
+      },
+      "id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc"
+    },
+    {
+      "name": "Lorentz",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "481d6ab5-9803-42b7-b6f2-6322d8a1e113"
+    },
+    {
+      "name": "non-minimal curvature couplings",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ff022f76-4d78-4a81-93e4-3d302e9d51e6"
+    },
+    {
+      "name": "velocity birenfrigence",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7a6c2382-75d9-45bc-90f7-812a9fde3090"
+    },
+    {
+      "name": "amplitude birefringence",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c8bb37e7-d784-4ff7-a6c3-0a473d053c43"
+    },
+    {
+      "name": "gravitational wave birefringence",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6a250dd7-d306-41f2-a5c0-2b8d0e313692"
+    },
+    {
+      "name": "stochastic GW background",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c816019e-e8b7-4eee-9f2c-b204f310277e"
+    },
+    {
+      "name": "late-time merger events",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7c322c31-3673-499e-bef2-86ce587bc2f7"
+    },
+    {
+      "name": "CMB observatories",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8b2d54fe-ed17-4fea-9a20-78fbd1fd9936"
+    },
+    {
+      "name": "primordial gravitational wave precision properties",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d922e50d-67ec-4b2d-bd1a-473f9272f42e"
+    },
+    {
+      "name": "Wald entropy",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "0220daa5-1d67-4df0-a380-05c458e8a91e"
+    },
+    {
+      "name": "entanglement entropy",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ab4b6189-1b01-42ce-b748-8c07f7a6139b"
+    },
+    {
+      "name": "black hole solutions with KR hair",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bf2f4de9-fb64-42c1-a928-bde168d8eddf"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 4550-4950",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 4550,
+        "end_word": 4950,
+        "preview": "properties in comparison to GR [105, 106]. Repeating such an analysis would offer a different approach to constraining our model parame- ters, as we certainly expect additional modifications as a resu..."
+      },
+      "id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9"
+    },
+    {
+      "name": "GR",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "44b8cb11-995e-4f09-a672-c0ff841ef8a3"
+    },
+    {
+      "name": "Starobinsky inflation",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "faf3d173-8122-4459-8117-f63b5d560603"
+    },
+    {
+      "name": "F(R) theories",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bbfdf26f-10b8-43dc-8ff0-956a83cf9b7b"
+    },
+    {
+      "name": "anisotropic inflation",
+      "type": "theory",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "cc1e68d3-7f7b-46b1-8b62-5fb3a16ea522"
+    },
+    {
+      "name": "CMB",
+      "type": "phenomenon",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d3419632-639b-497e-bd34-eb8abbdc4327"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 4900-5300",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 4900,
+        "end_word": 5300,
+        "preview": "Tatsuya Daniel, Leah Jenks, Evan McDonough, and Andrew Svesko for helpful comments and discussions. SA and TM are sup- ported by the Simons Foundation, Award 896696. [1] L. Jenks, L. Choi, M. Lagos, a..."
+      },
+      "id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937"
+    },
+    {
+      "name": "Tatsuya Daniel",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "317fb767-e6a4-492c-92fc-dbbb70ebb86a"
+    },
+    {
+      "name": "Leah Jenks",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9deeccdf-c9ff-405d-ad18-9cbad3a95dd2"
+    },
+    {
+      "name": "Evan McDonough",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a890e14c-ec72-46e3-b8d0-06e49cd0ff77"
+    },
+    {
+      "name": "Andrew Svesko",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9ca099aa-5b47-46d7-9b2c-a192da156357"
+    },
+    {
+      "name": "LIGO Scientific Collaboration",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8aebce38-18a4-4ca5-b0b3-906e92d64a68"
+    },
+    {
+      "name": "Virgo Collaboration",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ed461455-bf53-45b4-8deb-2c42d82491b6"
+    },
+    {
+      "name": "KAGRA Collaboration",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "297516fe-0be2-4b17-af67-fda10a824f5c"
+    },
+    {
+      "name": "NANOGrav Collaboration",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e0c27f95-4b9e-4e29-89af-5dd16730829c"
+    },
+    {
+      "name": "EPTA, InPTA:Collaboration",
+      "type": "organization",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "64066e99-e25c-4dbe-83c1-2345eaa022c4"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 5250-5650",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 5250,
+        "end_word": 5650,
+        "preview": "Alexander and N. Yunes, “Chern-Simons Modified General Relativity,”Phys. Rept.480(2009) 1–55, arXiv:0907.2562 [hep-th]. [16] S. Alexander, S. Cormack, A. Marcian` o, and N. Yunes, “Gravitational-Wave ..."
+      },
+      "id": "1f834090-c599-4eb9-aa54-28ae6395a50f"
+    },
+    {
+      "name": "Alexander",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "718faf80-86f4-4679-8197-45708b3253e5"
+    },
+    {
+      "name": "N. Yunes",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a971389b-53bb-4272-83cf-a9d0b9dc5d09"
+    },
+    {
+      "name": "S. H.-S. Alexander",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8a676d9e-dbe2-41fd-95f5-f89ff1e02833"
+    },
+    {
+      "name": "M. E. Peskin",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4ae87dc7-4dc1-4128-91ba-a5d507b8b042"
+    },
+    {
+      "name": "M. M. Sheikh-Jabbari",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6dd8d23e-7a53-49ef-9e49-7c0f88bf2ac7"
+    },
+    {
+      "name": "C. Creque-Sarbinowski",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a2e318ad-7f31-417e-a7f9-c1002d12c841"
+    },
+    {
+      "name": "M. Kamionkowski",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "af4763b7-5ab6-4382-9d7c-277991a032c5"
+    },
+    {
+      "name": "O. Philcox",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "96058c65-f3e0-46d9-8750-12fdf4b49be6"
+    },
+    {
+      "name": "P. Wagle",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f641dc90-dda7-49b8-837b-e38d4d7d79c4"
+    },
+    {
+      "name": "D. Li",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d4a60110-1e45-4bc8-bab0-f9b1e69331d2"
+    },
+    {
+      "name": "Y. Chen",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1381491e-c5f0-487b-b6b5-8bfb0158465e"
+    },
+    {
+      "name": "S. Nojiri",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d4c63bae-d2e5-456e-9f25-2a440b701512"
+    },
+    {
+      "name": "S. D. Odintsov",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "01e1f058-4628-4475-bb07-ed4d8bba0839"
+    },
+    {
+      "name": "V. K. Oikonomou",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2503b8cc-5c5d-4a9b-ba9e-51b42a16daf7"
+    },
+    {
+      "name": "A. A. Popov",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3d871cfd-f363-437f-9a32-1121841c6a27"
+    },
+    {
+      "name": "D. Yoshida",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "39b2bea2-0b0a-4797-b52c-d79ea60fee9c"
+    },
+    {
+      "name": "J. Soda",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "98b603e9-1e13-4df4-8819-91ef91a24734"
+    },
+    {
+      "name": "M. Crisostomi",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "71f247ff-7e8c-46b7-ae3e-b64cb5e7f702"
+    },
+    {
+      "name": "K. Noui",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ebdea800-281f-488c-8a86-8ecf795053b2"
+    },
+    {
+      "name": "C. Charmousis",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f479f883-5803-433c-a672-87166f89158f"
+    },
+    {
+      "name": "D. Langlois",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "930c8829-e6d3-475d-ae8b-d5eb3e1e863f"
+    },
+    {
+      "name": "J. Qiao",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e17ffd4b-4439-4621-bbed-434a29bbecd7"
+    },
+    {
+      "name": "T. Zhu",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8b2e1d89-013b-4c57-8104-d9585b8493a6"
+    },
+    {
+      "name": "G. Li",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a50eb66d-c223-44d7-8c63-660ee28967dc"
+    },
+    {
+      "name": "W. Zhao",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6ffb3418-1357-498f-99c8-c4496cf7829d"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 5600-6000",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 5600,
+        "end_word": 6000,
+        "preview": "gravity,”arXiv:2312.11899 [gr-qc]. [32] A. Conroy and T. Koivisto, “Parity-Violating Gravity and GW170817 in Non-Riemannian Cosmology,” JCAP12(2019) 016,arXiv:1908.04313 [gr-qc]. [33] D. Iosifidis and..."
+      },
+      "id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1"
+    },
+    {
+      "name": "A. Conroy",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "865e795e-6e22-48d2-b2a5-623f5be077b4"
+    },
+    {
+      "name": "T. Koivisto",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "15108754-17ce-4a90-828e-25522160b8b8"
+    },
+    {
+      "name": "D. Iosifidis",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a397d9a7-47ab-44b6-a314-cac756fb9b78"
+    },
+    {
+      "name": "L. Ravera",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "75f4e45b-21a9-4d70-a235-80588b83586e"
+    },
+    {
+      "name": "L. Freidel",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ddbf941e-eefa-474f-a806-170135aa602d"
+    },
+    {
+      "name": "D. Minic",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b3ae2638-b320-4c13-8148-c543f77095be"
+    },
+    {
+      "name": "T. Takeuchi",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "5e7e3989-ef63-4985-8f06-baf208fcb279"
+    },
+    {
+      "name": "N. E. Mavromatos",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c89ebbb8-af9c-4d13-8ffb-bb070d068fd5"
+    },
+    {
+      "name": "P. Pais",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "363be8f5-733a-47dc-995e-a35bf162e2af"
+    },
+    {
+      "name": "A. Iorio",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "defe143f-a86f-4b7a-a8d9-e799613fdb82"
+    },
+    {
+      "name": "I. L. Shapiro",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3e924838-030d-4f5d-a96b-a29d04243a4b"
+    },
+    {
+      "name": "P. M. Teixeira",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ffc1a379-2643-49fe-a273-405a6b7aef45"
+    },
+    {
+      "name": "M. Szczachor",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "28809e24-aced-4fd3-b126-9f6139d1bf68"
+    },
+    {
+      "name": "R. Hojman",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bf11de2d-4b87-4cb7-aadf-851365421db8"
+    },
+    {
+      "name": "C. Mukku",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6b4305b7-26b9-4bd9-ab61-660ffa4575c2"
+    },
+    {
+      "name": "W. A. Sayed",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "08d381b5-187b-4fe0-a5b9-35acf63a76f4"
+    },
+    {
+      "name": "S. Dyda",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "be98284b-d365-4c5a-8c43-5ac55ad06734"
+    },
+    {
+      "name": "E. E. Flanagan",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "438dbe88-96ba-42f5-a826-6748d545c702"
+    },
+    {
+      "name": "C. R. Contaldi",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8628a00f-cf81-40aa-8932-b2b221b59f7c"
+    },
+    {
+      "name": "J. Magueijo",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "32b99bcb-fb6a-4500-80d6-ec87546675f8"
+    },
+    {
+      "name": "L. Smolin",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "821bd8ad-1cf8-4479-b0cb-4618c6dce62a"
+    },
+    {
+      "name": "C. Capanelli",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "35afee48-4e06-4ef5-91f2-729d164d1966"
+    },
+    {
+      "name": "L. Jenks",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e628efad-f655-4989-906c-80e20a31d3e4"
+    },
+    {
+      "name": "E. W. Kolb",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4ed7e03b-9c80-41c1-b76a-32b297f166d1"
+    },
+    {
+      "name": "E. McDonough",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f72343e2-1d04-45e0-8386-d6ce5b8187b4"
+    },
+    {
+      "name": "A. Dashko",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4877fc94-cab5-4cce-a2b5-239f764d460f"
+    },
+    {
+      "name": "R. Dick",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "70bd7d21-1c72-4620-8a30-212532cee15a"
+    },
+    {
+      "name": "S. Chakraborty",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "60711efe-e1a6-4a52-9f3b-4b25018b1c07"
+    },
+    {
+      "name": "S. SenGupta",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7e460848-b505-4aac-be99-742456e2040d"
+    },
+    {
+      "name": "J. P. Beltr´ an Almeida",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "dd406e01-2cfc-450e-bc90-392d3ac83b3e"
+    },
+    {
+      "name": "A. Guarnizo",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "384996ff-3da2-44e1-a1a1-dc0ba407b0b9"
+    },
+    {
+      "name": "C. A. Valenzuela-Toledo",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ad58422f-0aab-4cbf-a6fd-d2aca691f430"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 5950-6350",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 5950,
+        "end_word": 6350,
+        "preview": "of tree-level leptogenesis from Kalb–Ramond torsion background,”Eur. Phys. J. C 75no. 10, (2015) 514,arXiv:1412.7077 [hep-ph]. [49] J. B. Orjuela-Quintana and C. A. Valenzuela-Toledo, “Anisotropic Dar..."
+      },
+      "id": "c34533ac-2fd6-4a17-af68-7dcd0a848576"
+    },
+    {
+      "name": "Kalb-Ramond",
+      "type": "Tensor field",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ac25d3dc-9554-43be-a84a-eec40f2cd154"
+    },
+    {
+      "name": "Orjuela-Quintana",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ad9ed635-ee2a-4451-9b59-51fe9baaeea3"
+    },
+    {
+      "name": "Valenzuela-Toledo",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7c701817-8028-431a-b7ce-6effae99ec7e"
+    },
+    {
+      "name": "Beltrán Almeida",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "be1df9c4-4fe8-4715-a0d2-78ac0b2ea7c2"
+    },
+    {
+      "name": "Guarnizo",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6ff3d242-aa28-4378-8e7c-c9acbf8f431c"
+    },
+    {
+      "name": "Kase",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e7732691-8f9a-4bfe-85e1-af9b6f381554"
+    },
+    {
+      "name": "Tsujikawa",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3ab737c4-f137-4c69-95f0-123d8891d455"
+    },
+    {
+      "name": "Ivanov",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2018ea72-151e-4c89-af13-fab53ae2dca5"
+    },
+    {
+      "name": "Ogievetsky",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "5483c7a7-84fe-47fb-9c5b-39e67744eef0"
+    },
+    {
+      "name": "Polubarinov",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1f66c30a-35d1-4880-a8e4-eb2ce6627bd6"
+    },
+    {
+      "name": "Svrcek",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b5c29e35-0319-4214-8a84-918ca583c10f"
+    },
+    {
+      "name": "Witten",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "fa5c1e90-7f86-4147-95bc-78d793fb540d"
+    },
+    {
+      "name": "Altschul",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d13274a9-5323-40f0-ba91-c42c0575b65b"
+    },
+    {
+      "name": "Bailey",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "242c74eb-3766-4c03-b59f-c885507cd8dc"
+    },
+    {
+      "name": "Kostelecky",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "37028baf-6d78-4b8a-a452-10fadd9e5e76"
+    },
+    {
+      "name": "Maity",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7b7baaa7-2a00-4474-962a-ad317854676a"
+    },
+    {
+      "name": "Majumdar",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7de98f4d-0011-4e2b-bd48-81b6bc79e9f7"
+    },
+    {
+      "name": "SenGupta",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "50b28bae-f41d-4fa1-95aa-25bc29df32dc"
+    },
+    {
+      "name": "Hell",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3ad18a70-9377-44ea-affb-74887d27e59c"
+    },
+    {
+      "name": "Assunção",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9a24cc17-0bb7-4aba-b59c-740bd81b1ba5"
+    },
+    {
+      "name": "Mariz",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9127e037-ba59-4cb3-980d-109d8a7fa325"
+    },
+    {
+      "name": "Nascimento",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "0e6f39b1-acd7-4a17-8a17-4f9e8516d235"
+    },
+    {
+      "name": "Petrov",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "950de564-c248-4fb5-82d2-e43953adfb13"
+    },
+    {
+      "name": "Maluf",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1d4ed480-97c8-43f7-8116-8cbf71b6411d"
+    },
+    {
+      "name": "Neves",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1a64065c-653f-41e3-8d79-21aea57aea9a"
+    },
+    {
+      "name": "Golovnev",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9b692e0b-bf31-4f83-839e-70a1309e2a05"
+    },
+    {
+      "name": "Mukhanov",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "76295641-8a5f-42a6-bfaf-4a40294557c7"
+    },
+    {
+      "name": "Vanchurin",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "33f4bf8e-0d62-459c-ba6a-87b22d9a464a"
+    },
+    {
+      "name": "Daniel",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9eeb1d3a-f5f1-4d08-be66-f83b0e0a426f"
+    },
+    {
+      "name": "Jenks",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "78b41e41-41bf-4b6b-9873-33f4aa5929b3"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 6300-6700",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 6300,
+        "end_word": 6700,
+        "preview": "in Slow-roll Inflation,” JCAP09(2008) 019,arXiv:0806.4594 [astro-ph]. [67] S. Alexander, L. S. Finn, and N. Yunes, “A Gravitational-wave probe of effective quantum gravity,”Phys. Rev. D78(2008) 066005..."
+      },
+      "id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e"
+    },
+    {
+      "name": "S. Alexander",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d807652d-5d1b-4c91-badb-ec9afef63775"
+    },
+    {
+      "name": "L. S. Finn",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "fbce9706-ef76-462b-9fc5-1bd778d05914"
+    },
+    {
+      "name": "R. O'Shaughnessy",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "311c8553-3420-4d1d-b5ec-40f372618773"
+    },
+    {
+      "name": "B. J. Owen",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "883904e6-4e2b-4854-bf99-34dfe1f8f183"
+    },
+    {
+      "name": "M. Maggiore",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a13adf2e-ff4f-4e84-a66e-a2a8cea54c7c"
+    },
+    {
+      "name": "M. Evans",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f86e8cf6-b30d-43e8-8f16-3bd9b8e4b6cd"
+    },
+    {
+      "name": "T. Callister",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "35d84cbe-ed46-443e-afef-d0f0d6a9984c"
+    },
+    {
+      "name": "D. Holz",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4a357d39-7d8e-44fa-9874-6fc53067588d"
+    },
+    {
+      "name": "A. G. Riess",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "386a240f-d689-4af3-ac84-167a4ab899ca"
+    },
+    {
+      "name": "T. Daniel",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "117de4b6-9120-4274-9986-5d26d5679265"
+    },
+    {
+      "name": "T. Manton",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "05214959-1d10-4159-b758-09c2418cdcd1"
+    },
+    {
+      "name": "M. Califano",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f428aad0-8f58-4f69-a89a-259cbcc0cc48"
+    },
+    {
+      "name": "R. D'Agostino",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b3a77c21-55b5-43ad-9dec-e69c91f67128"
+    },
+    {
+      "name": "D. Vernieri",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "714db954-4e9b-4599-9803-d6de27d34e00"
+    },
+    {
+      "name": "E. Vanzan",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e5573bfb-eb70-4718-ae49-710c701269f3"
+    },
+    {
+      "name": "S. C. Hotinli",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "5e053749-947b-40f1-ae75-e863d4ef06bd"
+    },
+    {
+      "name": "R. Bluhm",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6847990d-cc81-4192-9e9d-4ef230aea628"
+    },
+    {
+      "name": "V. A. Kostelecky",
+      "type": "Person",
+      "properties": {
+        "source_chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c1f2953d-00e0-47e0-89af-b04471ce0d61"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 6650-7050",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 6650,
+        "end_word": 7050,
+        "preview": "“Lorentz violating extension of the standard model,”Phys. Rev. D58 (1998) 116002,arXiv:hep-ph/9809521. [84] V. A. Kostelecky and S. Samuel, “Spontaneous Breaking of Lorentz Symmetry in String Theory,”..."
+      },
+      "id": "444c479e-898a-41c8-8846-1d748c2e252a"
+    },
+    {
+      "name": "Russell",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4e5ba193-8884-448b-acff-698b697be732"
+    },
+    {
+      "name": "Amarilo",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bcd2f830-0fe4-4692-ba42-a7e9b6e6d4f4"
+    },
+    {
+      "name": "Filho",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b8b39256-88db-417a-a197-8dceb631d7f3"
+    },
+    {
+      "name": "Reis",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "28566de3-2db1-4a1d-b6ef-7685396f8fee"
+    },
+    {
+      "name": "Moore",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "fe2d97ac-df96-4678-867c-cb5c2e2dbd8d"
+    },
+    {
+      "name": "Cole",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "fea917d0-2fc8-445f-8aea-b719b09a9648"
+    },
+    {
+      "name": "Berry",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a0d19ee5-cdb1-49f5-937b-35745f9bfdac"
+    },
+    {
+      "name": "Seto",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6417e796-98de-49bf-a742-b6e0a67658ad"
+    },
+    {
+      "name": "Kato",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "cc022625-76c9-4770-82c0-c0995845017e"
+    },
+    {
+      "name": "Soda",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "777a8942-e4b5-4929-a4dd-8de711eeb159"
+    },
+    {
+      "name": "Smith",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4c18752c-71fc-4ca2-bc1c-4ae32806082a"
+    },
+    {
+      "name": "Caldwell",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "21c98a3a-18a4-4ba6-8574-63c6b2988e11"
+    },
+    {
+      "name": "Callister",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ba90a575-9881-4b0d-b12a-2cf5741b3e06"
+    },
+    {
+      "name": "Biscoveanu",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "cbfc3143-54cb-4d54-be08-896babd6a1bc"
+    },
+    {
+      "name": "Christensen",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "53818965-8d95-44a3-a628-814c18c538a0"
+    },
+    {
+      "name": "Isi",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "89505d20-5a0a-462e-9141-384fa5588f2c"
+    },
+    {
+      "name": "Matas",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8738f6e7-9ebe-44f5-8356-fd835a8395dd"
+    },
+    {
+      "name": "Minazzoli",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "df9eb743-3af9-4167-8a61-cb9989639e9d"
+    },
+    {
+      "name": "Regimbau",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "5c92aa26-579b-4c5b-b2bd-07e8e8b529f9"
+    },
+    {
+      "name": "Sakellariadou",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b841eea1-403f-40ea-80dd-70065182066f"
+    },
+    {
+      "name": "Tasson",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c9808f55-fe7f-4c1f-9347-77bc55fd2431"
+    },
+    {
+      "name": "Thrane",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d3c9f038-a119-4660-9863-0b8691edd84f"
+    },
+    {
+      "name": "Domcke",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "5404b1d7-fcb1-43ec-9707-9e4723440c40"
+    },
+    {
+      "name": "Garcia-Bellido",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "522ff72f-418c-45eb-9f5c-231c19584f09"
+    },
+    {
+      "name": "Peloso",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "0cb69b37-09f3-473b-94b9-4732833451e3"
+    },
+    {
+      "name": "Pieroni",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e73df211-56cf-4584-a3a7-dbed4a463e97"
+    },
+    {
+      "name": "Ricciardone",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4965c84e-38a3-4c63-abe9-3c53344faa9e"
+    },
+    {
+      "name": "Sorbo",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2f02dcbc-8c95-4c96-99a6-157fc2eedfca"
+    },
+    {
+      "name": "Tasinato",
+      "type": "person",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "61aa9ca5-3555-44e3-849c-ec4289ccf92b"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 7000-7400",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 7000,
+        "end_word": 7400,
+        "preview": "stochastic gravitational-wave background,”Phys. Rev. D106no. 2, (2022) 023004,arXiv:2111.05867 [astro-ph.CO]. [98] H. Omiya and N. Seto, “Measuring the maximally allowed polarization states of the iso..."
+      },
+      "id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871"
+    },
+    {
+      "name": "stochastic gravitational-wave background",
+      "type": "concept",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "02983382-b8ab-4d42-8058-aa442d40f530"
+    },
+    {
+      "name": "Phys. Rev. D106no. 2",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "dbbdfea8-0197-46ea-8f68-ae663690e1cf"
+    },
+    {
+      "name": "arXiv:2111.05867 [astro-ph.CO]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f907786e-0288-478e-968d-9733f7ec2fc5"
+    },
+    {
+      "name": "H. Omiya and N. Seto",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2d5b9950-6207-4d13-9298-38bba1a8ecb0"
+    },
+    {
+      "name": "Phys. Rev. D107no. 12",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6a003058-5048-4d34-bc2a-850e20f8aabc"
+    },
+    {
+      "name": "arXiv:2301.01489 [astro-ph.CO]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a32be4af-56f5-4be1-8375-991a657896b0"
+    },
+    {
+      "name": "G. Mentasti, C. Contaldi, and M. Peloso",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "0979fa37-24af-4adb-ab22-e1352b8a01ab"
+    },
+    {
+      "name": "JCAP08(2023)",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b96736f1-fe1c-49e5-ba27-4605cb91ec59"
+    },
+    {
+      "name": "arXiv:2304.06640 [gr-qc]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "33f1e686-a4db-4cba-a953-0634e653117b"
+    },
+    {
+      "name": "N. Anil Kumar, M. C¸ alı¸ skan, G. Sato-Polito, M. Kamionkowski, and L. Ji",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4dfea660-f93e-45c9-a2d7-285fbf937b05"
+    },
+    {
+      "name": "arXiv:2312.03056 [astro-ph.CO]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "36374419-b579-4c09-b497-f6dfd238280a"
+    },
+    {
+      "name": "M. K. Parikh and S. Sarkar",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "1da73a93-4f49-49ae-915b-ab96c93cf718"
+    },
+    {
+      "name": "Entropy18(2016)",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b1b37c4b-9074-49da-9f2f-4bab360c0718"
+    },
+    {
+      "name": "arXiv:0903.1176 [hep-th]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "00baaccc-5b4f-4131-b3bb-5331a825658d"
+    },
+    {
+      "name": "G. Lopes Cardoso, B. de Wit, and T. Mohaupt",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "fa080d70-3f03-4487-8986-712bcbc643d2"
+    },
+    {
+      "name": "Fortsch. Phys.48(2000)",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bd67b4f0-1321-478e-a7c0-db90a9bf9011"
+    },
+    {
+      "name": "arXiv:hep-th/9904005",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "820a2360-dfad-488a-b62e-8ff8e2f87149"
+    },
+    {
+      "name": "R. M. Wald",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8e1c6321-719c-4171-8431-4e36eb657671"
+    },
+    {
+      "name": "Phys. Rev. D48no. 8",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "bbfe0595-b808-477f-9128-f4ec3282de85"
+    },
+    {
+      "name": "arXiv:gr-qc/9307038",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "a2b0c6e0-5765-421d-8755-8e4b07064115"
+    },
+    {
+      "name": "T. L. Hughes, R. G. Leigh, O. Parrikar, and S. T. Ramamurthy",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "c74e28f7-9bd5-450f-8f58-eb94ceb34834"
+    },
+    {
+      "name": "Phys. Rev. D93no. 6",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2452d62c-5b8f-46d1-b844-7623e3f3aad2"
+    },
+    {
+      "name": "arXiv:1509.04969 [hep-th]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "df0b6107-fe62-4168-94ee-a0ea70946b07"
+    },
+    {
+      "name": "R. Kumar, S. G. Ghosh, and A. Wang",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e4f94760-343f-4bb1-a03f-8202274c047f"
+    },
+    {
+      "name": "Phys. Rev. D101no. 10",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "fdb1bc07-070e-4da9-a505-7d58855e3dc2"
+    },
+    {
+      "name": "arXiv:2001.00460 [gr-qc]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f8fcf88b-a6e0-44c3-91d9-c4cc6cfaccc2"
+    },
+    {
+      "name": "L. A. Lessa, J. E. G. Silva, R. V. Maluf, and C. A. S. Almeida",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "4a74cb59-0c38-4cc5-bde5-02f0a945eb67"
+    },
+    {
+      "name": "Eur. Phys. J. C80 no. 4",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3ccc462b-eb46-4a95-a174-6b56e5a51bc7"
+    },
+    {
+      "name": "arXiv:1911.10296 [gr-qc]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "91c281c1-a3b1-4bb3-8186-6e9f68b5b191"
+    },
+    {
+      "name": "E. Elizalde, S. D. Odintsov, V. K. Oikonomou, and T. Paul",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8b236fc2-d431-4a16-8c0d-3e44e4a5ca8d"
+    },
+    {
+      "name": "JCAP02 (2019)",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "50672d5e-6a53-47df-a9b9-7dd9f3e81fbe"
+    },
+    {
+      "name": "arXiv:1810.07711 [gr-qc]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "cc5bc5e9-a201-4a26-9386-d1ecbca1d47e"
+    },
+    {
+      "name": "E. Elizalde, S. D. Odintsov, T. Paul, and D. S´ aez-Chill´ on G´ omez",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e4fd6a9e-36ad-42dd-875d-ae07f3a6e57e"
+    },
+    {
+      "name": "Phys. Rev. D99 no. 6",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f32c4f5a-f439-4fc8-9296-60c295e1b8f8"
+    },
+    {
+      "name": "arXiv:1811.02960 [gr-qc]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6f5ba4f7-6178-4691-aff5-e238134dce5d"
+    },
+    {
+      "name": "T. Kahniashvili, A. Brandenburg, G. Gogoberidze, S. Mandal, and A. Roper Pol",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "3f1ce425-1691-4972-ab8d-88231b57f0b0"
+    },
+    {
+      "name": "Phys. Rev. Res.3no. 1",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d6a109e1-3de6-48e4-a7d0-ccecea85d827"
+    },
+    {
+      "name": "arXiv:2011.05556 [astro-ph.CO]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "740c8055-3bb3-4656-89b6-b0c749591f9b"
+    },
+    {
+      "name": "T.-C. Li, T. Zhu, W. Zhao, and A. Wang",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b198bb38-7f57-498c-be26-ddb023d00692"
+    },
+    {
+      "name": "JCAP07(2024)",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "f73241de-bcf0-46d1-a9a7-82091fa02690"
+    },
+    {
+      "name": "arXiv:2403.05841 [gr-qc]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "891a9250-63b0-4f6c-98f6-13502307a7b3"
+    },
+    {
+      "name": "J. Ellis, M. Fairbairn, M. Lewicki, V. Vaskonen, and A. Wickens",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "b595e125-63ff-4e8e-8d70-ecb521da04e5"
+    },
+    {
+      "name": "JCAP10 (2020)",
+      "type": "publication",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "97c3cfcf-8011-46d0-a166-eecba3f7f39e"
+    },
+    {
+      "name": "arXiv:2005.05278 [astro-ph.CO]",
+      "type": "reference",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "2acfe6fe-1321-4247-b17b-168db54e1f36"
+    },
+    {
+      "name": "E. Gaztaaga and K. S. Kumar",
+      "type": "author",
+      "properties": {
+        "source_chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "78e45a25-93ee-4528-be41-02960c25b083"
+    },
+    {
+      "name": "2401.14452v2.pdf chunk 7350-7406",
+      "type": "DocumentChunk",
+      "properties": {
+        "chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "start_word": 7350,
+        "end_word": 7406,
+        "preview": "and Lorentz violations,”JCAP07(2024) 005,arXiv:2403.05841 [gr-qc]. [111] J. Ellis, M. Fairbairn, M. Lewicki, V. Vaskonen, and A. Wickens, “Detecting circular polarisation in the stochastic gravitation..."
+      },
+      "id": "1482def0-23aa-4718-90d4-426dc859f301"
+    },
+    {
+      "name": "JCAP",
+      "type": "Journal",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "38ca0136-d4f3-4da0-939a-6c22a85dced9"
+    },
+    {
+      "name": "arXiv",
+      "type": "Database",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "593b22d4-d567-4629-a6e0-ab1467ad8178"
+    },
+    {
+      "name": "gr-qc",
+      "type": "Category",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "69ecda26-210f-4916-a6da-9c73bd4f3511"
+    },
+    {
+      "name": "J. Ellis",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "6cace502-b644-4d73-9709-0e062e52c284"
+    },
+    {
+      "name": "M. Fairbairn",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "9b03e915-b295-495e-9ed4-a38e9694a526"
+    },
+    {
+      "name": "M. Lewicki",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "ca7eb6fe-917a-4ab1-bc5a-376b5739028d"
+    },
+    {
+      "name": "V. Vaskonen",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "e8c55872-bc66-43c3-997a-d08b404c39d6"
+    },
+    {
+      "name": "A. Wickens",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "d6b10b05-20ef-4091-8ee7-43d3336a8d17"
+    },
+    {
+      "name": "E. Gaztaaga",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "7ff2d30f-bd1f-48e8-b53f-a845b4d7e276"
+    },
+    {
+      "name": "K. S. Kumar",
+      "type": "Author",
+      "properties": {
+        "source_chunk_id": "1482def0-23aa-4718-90d4-426dc859f301",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "id": "8ee9518e-de11-4e07-924b-a37c5fcadc97"
+    }
+  ],
+  "links": [
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+      "key": "cc0595d6-a299-479e-b0a4-93f08d4549d0"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "4e633458-7edf-4a79-aa98-33d313e62c25",
+      "key": "8be4ae8c-f273-45a1-b756-a7165f18ef0a"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+      "key": "a416b563-4d9c-44ff-9239-311bec1d97f1"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+      "key": "f5865cc7-ad79-448b-8b24-f409852fd7ee"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "06def514-2dee-427e-90f8-97cd82918b81"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "06def514-2dee-427e-90f8-97cd82918b81",
+      "key": "8391887c-9775-49c2-bfa8-ed9e3227110b"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+      "key": "4a524c3b-8fae-4400-a9a0-5b58671cc300"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+      "key": "610bed1c-9993-4146-b3a2-4717244660d0"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+      "key": "623bb1d8-9de4-4ec5-8391-be4b5904b7fe"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "818ad297-e393-4029-a445-d898f0c822be"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "818ad297-e393-4029-a445-d898f0c822be",
+      "key": "87722884-dcfc-4282-8b85-5eb0f143203a"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+      "key": "437a86e9-7843-4312-8d7a-44cfc1b0dfab"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+      "key": "cab5e985-2952-451e-a691-89f00ccec7f8"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+      "key": "52c1d9e6-a751-4f28-aeb1-618cf980110a"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+      "key": "51eb79e5-298a-4a3a-b87b-f5c6039a5292"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+      "key": "54a8a82f-d538-4db4-be83-c7d215b9da2e"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+      "key": "51260d85-7c8e-4c5e-a6c4-49d2c4019f94"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+      "key": "5c33c0f9-9398-4a58-bca2-db6dcdfcfc23"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "6d8b6208-ae65-4c61-9ad5-e894d4b886a1",
+      "key": "e06729b7-e83c-4222-affd-ca32bedf18ef"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "c34533ac-2fd6-4a17-af68-7dcd0a848576"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "c34533ac-2fd6-4a17-af68-7dcd0a848576",
+      "key": "4955db98-1495-40d2-aede-cf794fb81daa"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "e11cd82a-0fe6-4bf1-9384-5c44466cf91e",
+      "key": "f868c16d-8642-4159-9da6-c2dbe96282bf"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "444c479e-898a-41c8-8846-1d748c2e252a",
+      "key": "1bfff13a-b1d2-42f9-9b0f-e478d93398dd"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "4d3da0fd-fd6d-4945-ac9a-3b306db83871"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "4d3da0fd-fd6d-4945-ac9a-3b306db83871",
+      "key": "91e33adc-d227-4043-af53-17ec1c3ccd30"
+    },
+    {
+      "type": "contains_chunk",
+      "properties": {
+        "source_file": "data\\raw\\2401.14452v2.pdf",
+        "chunk_id": "1482def0-23aa-4718-90d4-426dc859f301"
+      },
+      "source": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+      "target": "1482def0-23aa-4718-90d4-426dc859f301",
+      "key": "b00b627f-5595-4f8b-aee4-2334fc387b9a"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "f5576fac-f7be-46b1-b7b7-052f2c574f3b",
+      "target": "2e0259d2-490f-4dc5-9d1d-4afe86f7d252",
+      "key": "fd2d94a0-7237-4f25-ad73-b7b86924a55c"
+    },
+    {
+      "type": "coauthor",
+      "properties": {
+        "source_chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+      "target": "38cb673d-9025-402c-b584-8a9d0493b160",
+      "key": "1e09fe4e-e195-4c2d-9180-7fe664dc5958"
+    },
+    {
+      "type": "affiliation",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+      "target": "f24513aa-77c4-4ac1-935f-6fa67be6e0d4",
+      "key": "667dac24-383a-4d4d-9932-2611dc595f96"
+    },
+    {
+      "type": "affiliation",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "38cb673d-9025-402c-b584-8a9d0493b160",
+      "target": "f24513aa-77c4-4ac1-935f-6fa67be6e0d4",
+      "key": "4fdc2b04-6944-4bef-b7dc-506c1a0681ad"
+    },
+    {
+      "type": "authorship",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "3aef6c70-fa7b-4584-b971-0fc107e6ef16",
+      "target": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+      "key": "1a20a99a-ba48-4d68-b031-65695bee40f1"
+    },
+    {
+      "type": "authorship",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1972edbb-8660-4fbc-8122-fe070d63ae94",
+      "target": "38cb673d-9025-402c-b584-8a9d0493b160",
+      "key": "a4bee85a-8c2e-4ac4-9956-fc59175e7c18"
+    },
+    {
+      "type": "study",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "ef54d748-c22d-44e0-96dc-bf69d8f1cbf6",
+      "target": "3aef6c70-fa7b-4584-b971-0fc107e6ef16",
+      "key": "40a960a9-9992-42bf-873a-0a0522ac16c1"
+    },
+    {
+      "type": "relation",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "e2837716-2e04-49bb-86a8-de0868195d83",
+      "target": "cb768f10-f034-4d03-90a3-ecd3bb73a78a",
+      "key": "48ffd3fa-624a-4502-b117-ec256d28741a"
+    },
+    {
+      "type": "study",
+      "properties": {
+        "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "17ca7958-0f25-457f-8d25-1b80c68a30c4",
+      "target": "56646f92-78f9-408e-8d74-ec83d8e19c36",
+      "key": "ada00325-046f-4e2d-947b-978f402e3ed5"
+    },
+    {
+      "type": "non-minimal coupling",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+      "target": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+      "key": "06a014ce-3078-45d8-8e32-b39fd1abeb59"
+    },
+    {
+      "type": "defined in terms of",
+      "properties": {
+        "source_chunk_id": "2774216e-0d4a-40e8-a037-b48c4f048c2e",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "f63c7758-f256-4471-b358-284930766494",
+      "target": "3beef873-5b62-43b1-8c8e-66beb72fd87e",
+      "key": "11ae8c26-f361-4db5-932f-540656e98d73"
+    },
+    {
+      "type": "description",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+      "target": "33c527a8-4301-46ba-937c-c1404e00141e",
+      "key": "5befa75e-410d-4933-94a9-aa309c797bbf"
+    },
+    {
+      "type": "definition",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "b9b8533b-08c3-4d95-a582-07b790dd1a4d",
+      "target": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+      "key": "71c90709-fd20-4bed-a02a-c412c652a88c"
+    },
+    {
+      "type": "coupling",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "d13edeab-d327-4319-baf0-4dd6ce647b88",
+      "target": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+      "key": "e3249000-0d4e-4e73-b907-46ca4536fdc1"
+    },
+    {
+      "type": "duality",
+      "properties": {
+        "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "ab92af3f-705b-4724-8099-68141394d595",
+      "target": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+      "key": "ebffcfd3-bb5d-4a21-a98d-21994084f2c0"
+    },
+    {
+      "type": "is dual to",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "0a4e23f9-bb99-4c8a-a0a0-85f9edeed046",
+      "target": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "key": "f2d63ccb-a2a6-4f32-9c62-4236e00feffb"
+    },
+    {
+      "type": "interacts with",
+      "properties": {
+        "source_chunk_id": "1c1284e2-a403-4e83-a6fc-75cbdaae7e39",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "target": "f87e69d1-cf0d-4202-a4ce-68f322eb8353",
+      "key": "f00a57ba-5eda-4dfd-93b4-6823b5397f4a"
+    },
+    {
+      "type": "related to",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "target": "7dc4aae0-b7e1-4530-8bfd-5f88b29ed94a",
+      "key": "aa9c206d-a7e6-4305-bce5-9b515b16ea97"
+    },
+    {
+      "type": "related to",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "target": "9c96d4fc-8d51-439f-ac05-2d371229f06f",
+      "key": "16f10185-b406-4a78-b1f2-cd8f93273fca"
+    },
+    {
+      "type": "related to",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "target": "738cd687-4a72-4451-84a4-43efaefe4ba3",
+      "key": "c649d733-ce60-45fa-b577-9d1338ad04ee"
+    },
+    {
+      "type": "related to",
+      "properties": {
+        "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "target": "b6001ec5-f64a-41f9-b4da-071bc5bdb5fc",
+      "key": "1cabf07d-50da-48c1-b0d4-db4636481b23"
+    },
+    {
+      "type": "symmetry",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+      "target": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+      "key": "f3ee8c04-03ea-4e85-80a8-364ab50efbd6"
+    },
+    {
+      "type": "symmetry",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+      "target": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+      "key": "332e9ffc-78f8-4937-9b91-18f9ac70a6f6"
+    },
+    {
+      "type": "symmetry",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+      "target": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+      "key": "dffda9c1-c82b-4e07-8bbf-a2cf8b5fc385"
+    },
+    {
+      "type": "interaction",
+      "properties": {
+        "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+      "target": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "key": "420cb4d8-04ec-4e0f-8968-fe14ba121d2f"
+    },
+    {
+      "type": "partial derivative",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "372bc63a-3757-498d-8b30-dd775e38481b",
+      "target": "38ff0f81-def6-4d57-9bb7-101dcbf102c1",
+      "key": "9d938c16-0f1f-4a8c-a53a-52e429d753c9"
+    },
+    {
+      "type": "parameterization",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "38ff0f81-def6-4d57-9bb7-101dcbf102c1",
+      "target": "d540d9f1-02ed-415a-9520-f7dcb358e679",
+      "key": "8caa8fb5-bafc-43e3-8e7d-51fe47fdcc94"
+    },
+    {
+      "type": "parameter relation",
+      "properties": {
+        "source_chunk_id": "818ad297-e393-4029-a445-d898f0c822be",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "9f8bce1d-b1bc-4973-8e62-bd97b27d7ce3",
+      "target": "20162cf5-7b7e-4afd-83ab-57e38a19dd82",
+      "key": "bee07e74-9181-46bd-a948-f127e6549062"
+    },
+    {
+      "type": "coupling",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "5e7617d0-c3c6-426c-99ea-17ba27708929",
+      "target": "7dc4aae0-b7e1-4530-8bfd-5f88b29ed94a",
+      "key": "aa200539-601a-48b3-b8ef-e52492a0b1b6"
+    },
+    {
+      "type": "amplitude difference",
+      "properties": {
+        "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "f77d2503-9dbe-42d4-9185-092bab7030ed",
+      "target": "221f2aed-b654-497d-b86c-e9d3c7d3ff01",
+      "key": "91d7af3c-a327-46c9-8cd2-1d272cdf08d5"
+    },
+    {
+      "type": "prediction",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "a93c9958-7ea4-4d3c-8b04-654a58f5e428",
+      "target": "28bfab75-e483-4e8c-8ebd-084534f81d2e",
+      "key": "5be0b638-6cf0-4d1a-90c0-6045eca63410"
+    },
+    {
+      "type": "analysis",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "ef2cf9a5-f335-4b9c-bee2-5af7e4753a96",
+      "target": "a93c9958-7ea4-4d3c-8b04-654a58f5e428",
+      "key": "a92bb70e-cfd9-4905-b54f-5ea4a0574153"
+    },
+    {
+      "type": "observation",
+      "properties": {
+        "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "73caef08-615e-49a6-8205-ed0a58bef158",
+      "target": "28bfab75-e483-4e8c-8ebd-084534f81d2e",
+      "key": "863af955-b8a4-4d73-89ee-861b6af36e34"
+    },
+    {
+      "type": "similar_to",
+      "properties": {
+        "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "80d72f7e-6f1b-4a48-80ea-14416bc700dc",
+      "target": "7b87eff9-c4a6-44b0-89a6-0cedbee408fe",
+      "key": "19efbd85-0f16-4a89-9814-ecdc031a1de8"
+    },
+    {
+      "type": "predicts",
+      "properties": {
+        "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "7f177967-3f59-4b51-9a53-f3b10199ddf7",
+      "target": "f5576fac-f7be-46b1-b7b7-052f2c574f3b",
+      "key": "58fa81c1-bc3d-44f8-acd2-08767e92d634"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "481d6ab5-9803-42b7-b6f2-6322d8a1e113",
+      "target": "ff022f76-4d78-4a81-93e4-3d302e9d51e6",
+      "key": "17766289-48f3-4421-8896-d16c75246c57"
+    },
+    {
+      "type": "extension",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "481d6ab5-9803-42b7-b6f2-6322d8a1e113",
+      "target": "37028baf-6d78-4b8a-a452-10fadd9e5e76",
+      "key": "4a7c42bc-2759-4b81-9060-8fc4cff74d55"
+    },
+    {
+      "type": "compared_to",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "7a6c2382-75d9-45bc-90f7-812a9fde3090",
+      "target": "c8bb37e7-d784-4ff7-a6c3-0a473d053c43",
+      "key": "15942fbb-8e06-48be-829c-4e1b0e35f276"
+    },
+    {
+      "type": "detected_in",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "6a250dd7-d306-41f2-a5c0-2b8d0e313692",
+      "target": "c816019e-e8b7-4eee-9f2c-b204f310277e",
+      "key": "dde6ffa6-d805-499e-ad4a-365ed9c697de"
+    },
+    {
+      "type": "related_to",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "7c322c31-3673-499e-bef2-86ce587bc2f7",
+      "target": "6a250dd7-d306-41f2-a5c0-2b8d0e313692",
+      "key": "dc5df440-23ee-4f79-8049-e0a499b31104"
+    },
+    {
+      "type": "observed_by",
+      "properties": {
+        "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8b2d54fe-ed17-4fea-9a20-78fbd1fd9936",
+      "target": "d922e50d-67ec-4b2d-bd1a-473f9272f42e",
+      "key": "fd93012a-0430-4d0f-b267-a17d38b066d5"
+    },
+    {
+      "type": "interaction",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "44b8cb11-995e-4f09-a672-c0ff841ef8a3",
+      "target": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+      "key": "8be83f50-af15-4caf-b0a4-3db8eb9f842d"
+    },
+    {
+      "type": "study",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "faf3d173-8122-4459-8117-f63b5d560603",
+      "target": "bbfdf26f-10b8-43dc-8ff0-956a83cf9b7b",
+      "key": "fb6e3b21-a166-46d9-b047-5ad0d37b1646"
+    },
+    {
+      "type": "study",
+      "properties": {
+        "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "cc1e68d3-7f7b-46b1-8b62-5fb3a16ea522",
+      "target": "d3419632-639b-497e-bd34-eb8abbdc4327",
+      "key": "0c1a65e6-8b7c-4a05-b5ec-72bb4d3dc52d"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "317fb767-e6a4-492c-92fc-dbbb70ebb86a",
+      "target": "9deeccdf-c9ff-405d-ad18-9cbad3a95dd2",
+      "key": "42d0e056-bf96-4bdd-aff9-52be59286e84"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8aebce38-18a4-4ca5-b0b3-906e92d64a68",
+      "target": "ed461455-bf53-45b4-8deb-2c42d82491b6",
+      "key": "036360d6-46d1-4d02-bfbb-607b2e58d355"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "297516fe-0be2-4b17-af67-fda10a824f5c",
+      "target": "8aebce38-18a4-4ca5-b0b3-906e92d64a68",
+      "key": "b75a25ef-9704-4e49-9a88-9f117943684e"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "e0c27f95-4b9e-4e29-89af-5dd16730829c",
+      "target": "64066e99-e25c-4dbe-83c1-2345eaa022c4",
+      "key": "f9cdc132-7293-46b0-b6e1-3c2f62cb73a7"
+    },
+    {
+      "type": "Authorship",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "718faf80-86f4-4679-8197-45708b3253e5",
+      "target": "a971389b-53bb-4272-83cf-a9d0b9dc5d09",
+      "key": "a81cd795-b21a-4fc1-bd40-cb65197a3a7b"
+    },
+    {
+      "type": "Coauthorship",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8a676d9e-dbe2-41fd-95f5-f89ff1e02833",
+      "target": "4ae87dc7-4dc1-4128-91ba-a5d507b8b042",
+      "key": "3d5e436b-580c-474a-9dd5-3dcd75aaa868"
+    },
+    {
+      "type": "Coauthorship",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "8a676d9e-dbe2-41fd-95f5-f89ff1e02833",
+      "target": "6dd8d23e-7a53-49ef-9e49-7c0f88bf2ac7",
+      "key": "9f0dec87-95a6-45df-b014-85329a1a550c"
+    },
+    {
+      "type": "Authorship",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "f641dc90-dda7-49b8-837b-e38d4d7d79c4",
+      "target": "d4a60110-1e45-4bc8-bab0-f9b1e69331d2",
+      "key": "7958aa0b-cb0b-4e79-8345-79eeffb9b615"
+    },
+    {
+      "type": "Coauthorship",
+      "properties": {
+        "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "1381491e-c5f0-487b-b6b5-8bfb0158465e",
+      "target": "f641dc90-dda7-49b8-837b-e38d4d7d79c4",
+      "key": "7f5ab5ee-9f52-45f3-a958-6d96fac32bad"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "37028baf-6d78-4b8a-a452-10fadd9e5e76",
+      "target": "4e5ba193-8884-448b-acff-698b697be732",
+      "key": "2e832d7c-8c7f-4713-84a0-f160c5450a87"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "bcd2f830-0fe4-4692-ba42-a7e9b6e6d4f4",
+      "target": "b8b39256-88db-417a-a197-8dceb631d7f3",
+      "key": "a03da825-49fb-4a91-a948-c394960e345e"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "fe2d97ac-df96-4678-867c-cb5c2e2dbd8d",
+      "target": "fea917d0-2fc8-445f-8aea-b719b09a9648",
+      "key": "6a80eaed-4b5e-489a-b54f-6945830ee21e"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "6417e796-98de-49bf-a742-b6e0a67658ad",
+      "target": "cc022625-76c9-4770-82c0-c0995845017e",
+      "key": "48f7adfd-5f38-449b-84c7-cab7a5dacf4a"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "4c18752c-71fc-4ca2-bc1c-4ae32806082a",
+      "target": "21c98a3a-18a4-4ba6-8574-63c6b2988e11",
+      "key": "f86d348e-9347-4c59-9782-6548a0253cb3"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "ba90a575-9881-4b0d-b12a-2cf5741b3e06",
+      "target": "cbfc3143-54cb-4d54-be08-896babd6a1bc",
+      "key": "203ed55e-2a76-4e9e-8ae1-456213a238cb"
+    },
+    {
+      "type": "collaboration",
+      "properties": {
+        "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+        "source_file": "data\\raw\\2401.14452v2.pdf"
+      },
+      "source": "5404b1d7-fcb1-43ec-9707-9e4723440c40",
+      "target": "522ff72f-418c-45eb-9f5c-231c19584f09",
+      "key": "ebc4c4c2-4bdd-417e-a1df-4e08241a6ce4"
+    }
+  ]
+}
