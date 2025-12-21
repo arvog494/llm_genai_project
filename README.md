@@ -132,7 +132,7 @@ This performs:
 Once completed you can query the global QA endpoint:
 
 ```bash
-uvicorn src.api.server:app --reload
+uvicorn src/api.server:app --reload
 # POST http://localhost:8000/qa {"question": "..."}
 ```
 

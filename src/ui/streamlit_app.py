@@ -1,7 +1,11 @@
 # src/ui/streamlit_app.py
 
+import json
 import streamlit as st
+import streamlit.components.v1 as components
 import requests
+
+from pyvis.network import Network
 
 BACKEND_DEFAULT = "http://localhost:8000"
 DEFAULT_MAX_SOURCES = 8
@@ -41,6 +45,79 @@ def ask_global(backend_url: str, question: str):
     )
     resp.raise_for_status()
     return resp.json()
+
+
+def parse_graph_context(raw):
+    if raw is None:
+        return {}
+    if isinstance(raw, str):
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            # If backend returns a Python-like dict string, just show it as-is later.
+            return {"raw": raw, "nodes": [], "edges": []}
+    if isinstance(raw, dict):
+        return raw
+    return {}
+
+
+def render_graph(graph_context: dict):
+    nodes = graph_context.get("nodes") or []
+    edges = graph_context.get("edges") or []
+
+    if not nodes and not edges:
+        st.info("No graph context available for this answer yet.")
+        return
+
+    net = Network(
+        height="620px",
+        width="100%",
+        bgcolor="#ffffff",
+        font_color="#0b1220",
+        directed=True,
+    )
+    net.barnes_hut()
+
+    type_colors = {
+        "entity": "#2563eb",
+        "model": "#7c3aed",
+        "paper": "#059669",
+        "dataset": "#f59e0b",
+        "author": "#db2777",
+    }
+
+    for node in nodes:
+        node_id = node.get("id")
+        if not node_id:
+            continue
+        label = node.get("name") or node_id
+        props = node.get("properties") or {}
+        prop_lines = [f"{k}: {v}" for k, v in props.items()]
+        title = f"<b>{label}</b>" + ("<br>" + "<br>".join(prop_lines) if prop_lines else "")
+        net.add_node(
+            node_id,
+            label=label,
+            title=title,
+            color=type_colors.get(node.get("type"), "#6366f1"),
+            shape="dot",
+            size=14,
+        )
+
+    for edge in edges:
+        src = edge.get("source")
+        tgt = edge.get("target")
+        if not src or not tgt:
+            continue
+        props = edge.get("properties") or {}
+        prop_lines = [f"{k}: {v}" for k, v in props.items()]
+        title = (edge.get("type") or "") + ("<br>" + "<br>".join(prop_lines) if prop_lines else "")
+        net.add_edge(src, tgt, label=edge.get("type", ""), title=title, arrows="to")
+
+    # Configure physics and styling
+    net.toggle_physics(True)
+
+    html = net.generate_html(notebook=False, local=True)
+    components.html(html, height=660, scrolling=True)
 
 
 def main():
@@ -133,8 +210,16 @@ def main():
                         )
                         st.markdown(f"{idx}. {names}")
 
+                graph_ctx = parse_graph_context(result.get("graph_context"))
+
+                st.subheader("Graph visualization")
+                render_graph(graph_ctx)
+
                 with st.expander("Graph context (nodes & edges)"):
-                    st.json(result.get("graph_context", {}))
+                    if graph_ctx:
+                        st.json(graph_ctx)
+                    else:
+                        st.write("No graph context returned.")
             except Exception as e:
                 st.error(f"Error: {e}")
 

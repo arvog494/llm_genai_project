@@ -324,26 +324,51 @@ class GraphBuilderAgent:
                 },
             )
             self.graph_store.upsert_entity(entity)
+        # Relations may contain single names or lists (model-dependent).
+        # Normalize to lists and create a relation for each source/target pair.
+        def _to_name_list(val):
+            if val is None:
+                return []
+            if isinstance(val, list):
+                # keep only simple scalar items
+                out = []
+                for v in val:
+                    if isinstance(v, (str, int)):
+                        out.append(str(v))
+                return out
+            if isinstance(val, (str, int)):
+                return [str(val)]
+            # unknown type, attempt to stringify
+            try:
+                return [str(val)]
+            except Exception:
+                return []
 
         for rel in parsed.get("relations", []):
-            src_name = rel.get("source")
-            tgt_name = rel.get("target")
-            if not src_name or not tgt_name:
+            src_names = _to_name_list(rel.get("source"))
+            tgt_names = _to_name_list(rel.get("target"))
+            if not src_names or not tgt_names:
                 continue
-            if src_name not in name_to_id or tgt_name not in name_to_id:
-                continue
-            relation = Relation(
-                id=str(uuid.uuid4()),
-                source=name_to_id[src_name],
-                target=name_to_id[tgt_name],
-                type=rel.get("type", "related_to"),
-                properties={
-                    **rel.get("properties", {}),
-                    "source_chunk_id": chunk.id,
-                    "source_file": chunk.source,
-                },
-            )
-            self.graph_store.add_relation(relation)
+
+            for src_name in src_names:
+                for tgt_name in tgt_names:
+                    if not src_name or not tgt_name:
+                        continue
+                    if src_name not in name_to_id or tgt_name not in name_to_id:
+                        # skip relations where entity names weren't extracted/seen
+                        continue
+                    relation = Relation(
+                        id=str(uuid.uuid4()),
+                        source=name_to_id[src_name],
+                        target=name_to_id[tgt_name],
+                        type=rel.get("type", "related_to"),
+                        properties={
+                            **rel.get("properties", {}),
+                            "source_chunk_id": chunk.id,
+                            "source_file": chunk.source,
+                        },
+                    )
+                    self.graph_store.add_relation(relation)
 
     def run(self, chunks: List[DocumentChunk]) :
         if not chunks:
