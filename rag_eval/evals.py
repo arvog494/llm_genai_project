@@ -5,6 +5,7 @@ import time
 import csv
 import json
 import os
+import re
 import sys
 import threading
 import httpx
@@ -66,24 +67,37 @@ def load_dataset(csv_path: Path | str | None = None):
 
 
 EVAL_SYSTEM_PROMPT = (
-    "You are an evaluation assistant. Always return STRICT JSON with the requested fields."
+        "You are a strict JSON grader for a RAG system. "
+        "Return ONLY a JSON object (no prose, no markdown, no code fences). "
+        "Use exactly the required keys and one of the allowed values for each key. "
+        "Never invent new keys. If uncertain, choose the closest label (do not output 'unknown')."
 )
 
 EVAL_USER_PROMPT = """
-Evaluate the response using the grading notes and question.
-Return a JSON object with exactly these keys and allowed values:
-"coverage": one of ["high", "partial", "low"]
-"grounding": one of ["grounded", "hallucinated"]
-"faithfulness": one of ["faithful", "unfaithful"]
-"answer_relevancy": one of ["on-topic", "partial", "off-topic"]
+Grade the answer against the question and grading notes.
+
+Return EXACTLY this JSON schema (single JSON object):
+{{
+    "coverage": "high" | "partial" | "low",
+    "grounding": "grounded" | "hallucinated",
+    "faithfulness": "faithful" | "unfaithful",
+    "answer_relevancy": "on-topic" | "partial" | "off-topic"
+}}
 
 Question: {question}
 Grading Notes: {grading_notes}
-Response: {response}
+Answer: {response}
 
-JSON only, no explanations.
+JSON only.
 """
 
+
+ALLOWED_VALUES: dict[str, set[str]] = {
+    "coverage": {"high", "partial", "low"},
+    "grounding": {"grounded", "hallucinated"},
+    "faithfulness": {"faithful", "unfaithful"},
+    "answer_relevancy": {"on-topic", "partial", "off-topic"},
+}
 
 DEFAULT_LABELS = {
     "coverage": "unknown",
@@ -99,6 +113,8 @@ _query_lock = threading.Lock()
 _classification_cache: dict[tuple[str, str, str], dict] = {}
 _classification_lock = threading.Lock()
 
+_grade_semaphore: asyncio.Semaphore | None = None
+
 
 def _extract_json_block(text: str) -> str:
     start = text.find("{")
@@ -108,35 +124,110 @@ def _extract_json_block(text: str) -> str:
     return text
 
 
+def _normalize_label(key: str, value: object) -> str | None:
+    if value is None:
+        return None
+    v = str(value).strip().lower()
+    # common normalizations
+    v = v.replace("_", "-")
+    if key == "answer_relevancy" and v in {"on topic", "ontopic"}:
+        v = "on-topic"
+    if v in ALLOWED_VALUES.get(key, set()):
+        return v
+    return None
+
+
+def _parse_labels_from_text(text: str) -> dict:
+    """Best-effort parsing to reduce 'unknown' when the model output is slightly malformed."""
+    cleaned = (text or "").strip()
+    if not cleaned:
+        return {}
+
+    # Try JSON extraction first.
+    try:
+        extracted = _extract_json_block(cleaned)
+        parsed = json.loads(extracted)
+        if isinstance(parsed, dict):
+            return parsed
+    except Exception:
+        pass
+
+    # Fallback: regex by key/value (handles missing quotes / extra text).
+    out: dict[str, str] = {}
+    for key, allowed in ALLOWED_VALUES.items():
+        # Look for: key: value  (quotes optional)
+        m = re.search(rf"\b{re.escape(key)}\b\s*[:=]\s*\"?([a-zA-Z_-]+)\"?", cleaned, re.IGNORECASE)
+        if m:
+            norm = _normalize_label(key, m.group(1))
+            if norm:
+                out[key] = norm
+                continue
+
+        # Last resort: if key is missing, try to infer by scanning allowed labels in text.
+        # (We do this only when JSON parsing failed; it's better than returning unknown.)
+        lowered = cleaned.lower().replace("_", "-")
+        for candidate in allowed:
+            if candidate in lowered:
+                out[key] = candidate
+                break
+
+    return out
+
+
 def _classify_response_sync(question: str, grading_notes: str, response_text: str) -> dict:
     if not response_text.strip():
         return {**DEFAULT_LABELS}
 
-    try:
-        completion = client.chat.completions.create(
-            model="Gpt-oss:20b",
-            temperature=0,
-            max_tokens=200,
-            messages=[
-                {"role": "system", "content": EVAL_SYSTEM_PROMPT},
-                {
-                    "role": "user",
-                    "content": EVAL_USER_PROMPT.format(
-                        question=question,
-                        grading_notes=grading_notes,
-                        response=response_text,
-                    ),
-                },
-            ],
-        )
-        message = completion.choices[0].message.content if completion.choices else ""
-        parsed = json.loads(_extract_json_block(message or ""))
-    except Exception:
-        parsed = {}
+    # A lot of 'unknown' previously came from network hiccups or slightly malformed JSON.
+    # We retry a few times and use tolerant parsing to keep labels usable.
+    model_name = os.getenv("RAG_EVAL_MODEL", "Gpt-oss:20b")
+    max_attempts = int(os.getenv("RAG_EVAL_GRADE_RETRIES", "3"))
 
-    labels = {**DEFAULT_LABELS}
-    labels.update({k: str(v) for k, v in parsed.items() if k in labels})
-    return labels
+    last_error: Exception | None = None
+    for attempt in range(max_attempts):
+        try:
+            completion = client.chat.completions.create(
+                model=model_name,
+                temperature=0,
+                max_tokens=120,
+                messages=[
+                    {"role": "system", "content": EVAL_SYSTEM_PROMPT},
+                    {
+                        "role": "user",
+                        "content": EVAL_USER_PROMPT.format(
+                            question=question,
+                            grading_notes=grading_notes,
+                            response=response_text,
+                        ),
+                    },
+                ],
+            )
+
+            message = completion.choices[0].message.content if completion.choices else ""
+            parsed = _parse_labels_from_text(message or "")
+
+            labels = {**DEFAULT_LABELS}
+            for key in labels.keys():
+                norm = _normalize_label(key, parsed.get(key))
+                if norm:
+                    labels[key] = norm
+
+            return labels
+        except (httpx.ReadError, httpx.ConnectError) as e:
+            last_error = e
+            if attempt + 1 < max_attempts:
+                time.sleep(1.0 * (attempt + 1))
+                continue
+        except Exception as e:
+            last_error = e
+            if attempt + 1 < max_attempts:
+                time.sleep(0.5 * (attempt + 1))
+                continue
+
+    # If we couldn't grade after retries, keep unknown but include a hint for debugging.
+    if last_error is not None:
+        print(f"Grading failed after {max_attempts} attempts: {type(last_error).__name__}: {last_error}", flush=True)
+    return {**DEFAULT_LABELS}
 
 
 async def classify_response(question: str, grading_notes: str, response_text: str) -> dict:
@@ -146,10 +237,16 @@ async def classify_response(question: str, grading_notes: str, response_text: st
     if cached is not None:
         return cached
 
+    global _grade_semaphore
+    if _grade_semaphore is None:
+        grade_concurrency = int(os.getenv("RAG_EVAL_GRADE_CONCURRENCY", "2"))
+        _grade_semaphore = asyncio.Semaphore(max(1, grade_concurrency))
+
     loop = asyncio.get_running_loop()
-    labels = await loop.run_in_executor(
-        None, _classify_response_sync, question, grading_notes, response_text
-    )
+    async with _grade_semaphore:
+        labels = await loop.run_in_executor(
+            None, _classify_response_sync, question, grading_notes, response_text
+        )
     with _classification_lock:
         _classification_cache[cache_key] = labels
     return labels
@@ -194,7 +291,9 @@ async def query_with_cache(question: str) -> dict:
             last_error = e
             break
     
-    raise last_error
+    if isinstance(last_error, BaseException):
+        raise last_error
+    raise RuntimeError("Query failed but no exception was captured")
 
 
 def dataset_to_rows(dataset: Dataset) -> list[dict]:
@@ -213,7 +312,10 @@ def dataset_to_rows(dataset: Dataset) -> list[dict]:
 
 
 async def run_experiment(row):
+    t0 = time.monotonic()
     response = await query_with_cache(row["question"])
+    t1 = time.monotonic()
+
     answer = response.get("answer", "")
 
     labels = await classify_response(
@@ -221,6 +323,7 @@ async def run_experiment(row):
         grading_notes=row["grading_notes"],
         response_text=answer,
     )
+    t2 = time.monotonic()
 
     conciseness = measure_conciseness(answer)
 
@@ -232,6 +335,9 @@ async def run_experiment(row):
         "faithfulness": labels["faithfulness"],
         "answer_relevancy": labels["answer_relevancy"],
         "conciseness": conciseness,
+        "query_latency_s": round(t1 - t0, 4),
+        "grade_latency_s": round(t2 - t1, 4),
+        "total_latency_s": round(t2 - t0, 4),
         "log_file": response.get("logs", " "),
     }
 

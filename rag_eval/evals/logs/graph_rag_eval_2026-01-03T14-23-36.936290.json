@@ -1,0 +1,387 @@
+{
+  "timestamp": "2026-01-03T14:23:36.936290",
+  "question": "Where did C. A. S. HALL reside during her years in Washington, D.C.?",
+  "result": {
+    "answer": "It seems like you're asking about the residence of C.A.S. Hall during her years in Washington, D.C.\n\nUnfortunately, I couldn't find any information on a person named C.A.S. Hall living in Washington, D.C., or anywhere else for that matter. It's possible that this is a fictional character or not a well-known historical figure.\n\nHowever, if you could provide more context or details about who C.A.S. Hall is and what she did during her time in Washington, D.C., I might be able to help you better.",
+    "citations": [
+      {
+        "chunk_id": "eeecb5ad-b345-4be5-8dde-77895b83841d",
+        "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt",
+        "label": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt@59500-59900",
+        "span": {
+          "start_word": 59500,
+          "end_word": 59900
+        },
+        "metadata": {
+          "end_word": 59900,
+          "start_word": 59500,
+          "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt"
+        }
+      },
+      {
+        "chunk_id": "1b9aa096-3ff3-4049-a9a7-c20a4b5e6e59",
+        "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt",
+        "label": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt@31150-31550",
+        "span": {
+          "start_word": 31150,
+          "end_word": 31550
+        },
+        "metadata": {
+          "end_word": 31550,
+          "start_word": 31150,
+          "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt"
+        }
+      },
+      {
+        "chunk_id": "e1b2d0ab-b9c1-45c2-8a10-2fd14b3bac91",
+        "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-58553.txt",
+        "label": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-58553.txt@28350-28750",
+        "span": {
+          "start_word": 28350,
+          "end_word": 28750
+        },
+        "metadata": {
+          "start_word": 28350,
+          "end_word": 28750,
+          "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-58553.txt"
+        }
+      },
+      {
+        "chunk_id": "f17d7bdd-4151-411a-becb-69dadf0721a2",
+        "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt",
+        "label": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt@19250-19650",
+        "span": {
+          "start_word": 19250,
+          "end_word": 19650
+        },
+        "metadata": {
+          "start_word": 19250,
+          "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-51410.txt",
+          "end_word": 19650
+        }
+      },
+      {
+        "chunk_id": "a249402b-e23b-476e-8812-35f4b8ed23b7",
+        "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-47558.txt",
+        "label": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-47558.txt@9800-10200",
+        "span": {
+          "start_word": 9800,
+          "end_word": 10200
+        },
+        "metadata": {
+          "end_word": 10200,
+          "source": "D:\\VSCode_ws\\llm_genai_project\\data\\raw\\Novel-47558.txt",
+          "start_word": 9800
+        }
+      }
+    ],
+    "graph_context": {
+      "nodes": [
+        {
+          "id": "a93c9958-7ea4-4d3c-8b04-654a58f5e428",
+          "name": "parity violation",
+          "type": "concept",
+          "properties": {
+            "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "f641dc90-dda7-49b8-837b-e38d4d7d79c4",
+          "name": "P. Wagle",
+          "type": "Person",
+          "properties": {
+            "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "8a676d9e-dbe2-41fd-95f5-f89ff1e02833",
+          "name": "S. H.-S. Alexander",
+          "type": "Person",
+          "properties": {
+            "source_chunk_id": "1f834090-c599-4eb9-aa54-28ae6395a50f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "37028baf-6d78-4b8a-a452-10fadd9e5e76",
+          "name": "Kostelecky",
+          "type": "person",
+          "properties": {
+            "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "8aebce38-18a4-4ca5-b0b3-906e92d64a68",
+          "name": "LIGO Scientific Collaboration",
+          "type": "organization",
+          "properties": {
+            "source_chunk_id": "1a81c6d4-707d-40d3-aadf-bd5ff4bdc937",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+          "name": "KR Lagrangian",
+          "type": "theory",
+          "properties": {
+            "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "f24513aa-77c4-4ac1-935f-6fa67be6e0d4",
+          "name": "Brown University",
+          "type": "organization",
+          "properties": {
+            "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "38ff0f81-def6-4d57-9bb7-101dcbf102c1",
+          "name": "H",
+          "type": "parameter",
+          "properties": {
+            "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+          "name": "KR field",
+          "type": "field",
+          "properties": {
+            "source_chunk_id": "32651cd7-99db-41a8-bbfc-be7aea1e15e9",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+          "name": "Riemann tensor",
+          "type": "concept",
+          "properties": {
+            "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "f5576fac-f7be-46b1-b7b7-052f2c574f3b",
+          "name": "Kalb-Ramond field",
+          "type": "field",
+          "properties": {
+            "source_chunk_id": "c554b056-f67f-4bba-a9fe-6d46be2b507f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "3aef6c70-fa7b-4584-b971-0fc107e6ef16",
+          "name": "dCS theory",
+          "type": "theory",
+          "properties": {
+            "source_chunk_id": "2ebe27d9-73d1-48ff-b1d9-f0d9257751f6",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "28bfab75-e483-4e8c-8ebd-084534f81d2e",
+          "name": "gravitational wave detectors",
+          "type": "device",
+          "properties": {
+            "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "3a5309c7-ff6c-436e-b89a-015a34bfd750",
+          "name": "Source: 2401.14452v2.pdf",
+          "type": "SourceDocument",
+          "properties": {
+            "path": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "38cb673d-9025-402c-b584-8a9d0493b160",
+          "name": "Stephon Alexander",
+          "type": "person",
+          "properties": {
+            "email": "stephon alexander@brown.edu",
+            "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "481d6ab5-9803-42b7-b6f2-6322d8a1e113",
+          "name": "Lorentz",
+          "type": "concept",
+          "properties": {
+            "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "6a250dd7-d306-41f2-a5c0-2b8d0e313692",
+          "name": "gravitational wave birefringence",
+          "type": "concept",
+          "properties": {
+            "source_chunk_id": "3d60fe7d-b647-4626-aadb-4f90fb3c6fdc",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "7dc4aae0-b7e1-4530-8bfd-5f88b29ed94a",
+          "name": "v",
+          "type": "velocity",
+          "properties": {
+            "source_chunk_id": "e27030f5-bbcf-4ba1-8bf7-0705b688a4dc",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+          "name": "Tucker Manton",
+          "type": "person",
+          "properties": {
+            "email": "tucker manton@brown.edu",
+            "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+          "name": "P",
+          "type": "tensor",
+          "properties": {
+            "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "5be0b638-6cf0-4d1a-90c0-6045eca63410",
+          "source": "a93c9958-7ea4-4d3c-8b04-654a58f5e428",
+          "target": "28bfab75-e483-4e8c-8ebd-084534f81d2e",
+          "type": "prediction",
+          "properties": {
+            "source_chunk_id": "62da5a8d-30f7-4a8b-bcb2-f774fbc8d79c",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "aa9c206d-a7e6-4305-bce5-9b515b16ea97",
+          "source": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+          "target": "7dc4aae0-b7e1-4530-8bfd-5f88b29ed94a",
+          "type": "related to",
+          "properties": {
+            "source_chunk_id": "e2bef2ae-9f5f-4ddb-b4b7-0494b9df572d",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "06a014ce-3078-45d8-8e32-b39fd1abeb59",
+          "source": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+          "target": "7b7ad917-220b-45ed-ba03-205a6bedd067",
+          "type": "non-minimal coupling",
+          "properties": {
+            "source_chunk_id": "06def514-2dee-427e-90f8-97cd82918b81",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "1a20a99a-ba48-4d68-b031-65695bee40f1",
+          "source": "3aef6c70-fa7b-4584-b971-0fc107e6ef16",
+          "target": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+          "type": "authorship",
+          "properties": {
+            "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "4fdc2b04-6944-4bef-b7dc-506c1a0681ad",
+          "source": "38cb673d-9025-402c-b584-8a9d0493b160",
+          "target": "f24513aa-77c4-4ac1-935f-6fa67be6e0d4",
+          "type": "affiliation",
+          "properties": {
+            "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "4a7c42bc-2759-4b81-9060-8fc4cff74d55",
+          "source": "481d6ab5-9803-42b7-b6f2-6322d8a1e113",
+          "target": "37028baf-6d78-4b8a-a452-10fadd9e5e76",
+          "type": "extension",
+          "properties": {
+            "source_chunk_id": "444c479e-898a-41c8-8846-1d748c2e252a",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "1e09fe4e-e195-4c2d-9180-7fe664dc5958",
+          "source": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+          "target": "38cb673d-9025-402c-b584-8a9d0493b160",
+          "type": "coauthor",
+          "properties": {
+            "source_chunk_id": "c66cb585-7f78-4eef-abac-40aedeb51e1c",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "667dac24-383a-4d4d-9932-2611dc595f96",
+          "source": "71921ed3-fc67-496e-a2a5-e82307cbe6b4",
+          "target": "f24513aa-77c4-4ac1-935f-6fa67be6e0d4",
+          "type": "affiliation",
+          "properties": {
+            "source_chunk_id": "4e633458-7edf-4a79-aa98-33d313e62c25",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "f3ee8c04-03ea-4e85-80a8-364ab50efbd6",
+          "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+          "target": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+          "type": "symmetry",
+          "properties": {
+            "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "332e9ffc-78f8-4937-9b91-18f9ac70a6f6",
+          "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+          "target": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+          "type": "symmetry",
+          "properties": {
+            "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "dffda9c1-c82b-4e07-8bbf-a2cf8b5fc385",
+          "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+          "target": "223fe9ff-0757-463a-b76a-d9d0f51d2591",
+          "type": "symmetry",
+          "properties": {
+            "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        },
+        {
+          "id": "420cb4d8-04ec-4e0f-8968-fe14ba121d2f",
+          "source": "8de62f6e-9017-4b7c-a30d-39526cfeeb8c",
+          "target": "1c3984b1-3373-4514-9700-d16dd8fb0116",
+          "type": "interaction",
+          "properties": {
+            "source_chunk_id": "45b423cf-7e52-457b-a7fb-84ca4791578f",
+            "source_file": "data\\raw\\2401.14452v2.pdf"
+          }
+        }
+      ]
+    },
+    "graph_paths": []
+  }
+}
