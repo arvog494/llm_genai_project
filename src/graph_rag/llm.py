@@ -15,15 +15,40 @@ class LLMClient:
         chat_model = chat_model or settings.ollama_chat_model
         embedding_model = embedding_model or settings.ollama_embedding_model
 
-        self.chat = ChatOllama(
-            model=chat_model,
-            temperature=temperature,
-            base_url=settings.ollama_base_url,
-        )
-        self.embeddings = OllamaEmbeddings(
-            model=embedding_model,
-            base_url=settings.ollama_base_url,
-        )
+        chat_kwargs: dict[str, Any] = {
+            "model": chat_model,
+            "temperature": temperature,
+            "base_url": settings.ollama_base_url,
+        }
+        embeddings_kwargs: dict[str, Any] = {
+            "model": embedding_model,
+            "base_url": settings.ollama_base_url,
+        }
+
+        # These knobs can reduce "gets worse over time" behavior by unloading models sooner
+        # and/or reducing KV-cache growth (context + output).
+        if settings.ollama_keep_alive is not None:
+            chat_kwargs["keep_alive"] = settings.ollama_keep_alive
+            embeddings_kwargs["keep_alive"] = settings.ollama_keep_alive
+        if settings.ollama_num_ctx is not None:
+            chat_kwargs["num_ctx"] = settings.ollama_num_ctx
+        if settings.ollama_num_predict is not None:
+            chat_kwargs["num_predict"] = settings.ollama_num_predict
+
+        # Be defensive about langchain_ollama versions that may not support all params.
+        try:
+            self.chat = ChatOllama(**chat_kwargs)
+        except TypeError:
+            chat_kwargs.pop("keep_alive", None)
+            chat_kwargs.pop("num_ctx", None)
+            chat_kwargs.pop("num_predict", None)
+            self.chat = ChatOllama(**chat_kwargs)
+
+        try:
+            self.embeddings = OllamaEmbeddings(**embeddings_kwargs)
+        except TypeError:
+            embeddings_kwargs.pop("keep_alive", None)
+            self.embeddings = OllamaEmbeddings(**embeddings_kwargs)
 
     def simple_chat(self, system_prompt: str, user_prompt: str) :
         prompt = ChatPromptTemplate.from_messages(

@@ -16,6 +16,12 @@ class Settings(BaseSettings):
     ollama_extraction_model: str = "llama3"
     ollama_embedding_model: str = "nomic-embed-text"
 
+    # Optional Ollama runtime controls (helpful to avoid VRAM staying "stuck" during evals)
+    # If unset, defaults are decided by Ollama / langchain_ollama.
+    ollama_keep_alive: str | None = None
+    ollama_num_ctx: int | None = None
+    ollama_num_predict: int | None = None
+
     # Vector store
     chroma_db_dir: Path = PROJECT_ROOT / "chroma_db"
 

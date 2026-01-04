@@ -9,6 +9,8 @@ import re
 import sys
 import threading
 import httpx
+import random
+import hashlib
 from pathlib import Path
 
 # Add the current directory to import sibling rag module when run as a script
@@ -67,28 +69,28 @@ def load_dataset(csv_path: Path | str | None = None):
 
 
 EVAL_SYSTEM_PROMPT = (
-        "You are a strict JSON grader for a RAG system. "
-        "Return ONLY a JSON object (no prose, no markdown, no code fences). "
-        "Use exactly the required keys and one of the allowed values for each key. "
-        "Never invent new keys. If uncertain, choose the closest label (do not output 'unknown')."
+    "You are a grader for a RAG system. "
+    "Evaluate the answer based on the provided question and grading notes. "
+    "Provide a rating for: coverage, grounding, faithfulness, and answer_relevancy. "
+    "Use the allowed values only."
 )
 
 EVAL_USER_PROMPT = """
-Grade the answer against the question and grading notes.
-
-Return EXACTLY this JSON schema (single JSON object):
-{{
-    "coverage": "high" | "partial" | "low",
-    "grounding": "grounded" | "hallucinated",
-    "faithfulness": "faithful" | "unfaithful",
-    "answer_relevancy": "on-topic" | "partial" | "off-topic"
-}}
-
 Question: {question}
 Grading Notes: {grading_notes}
 Answer: {response}
 
-JSON only.
+Classify the answer using these exact keys and values:
+- coverage: high, partial, low
+- grounding: grounded, hallucinated
+- faithfulness: faithful, unfaithful
+- answer_relevancy: on-topic, partial, off-topic
+
+Output Format:
+coverage: <value>
+grounding: <value>
+faithfulness: <value>
+answer_relevancy: <value>
 """
 
 
@@ -178,9 +180,13 @@ def _classify_response_sync(question: str, grading_notes: str, response_text: st
     if not response_text.strip():
         return {**DEFAULT_LABELS}
 
+    # Truncate very long responses to avoid context window issues
+    if len(response_text) > 6000:
+        response_text = response_text[:6000] + "...(truncated)"
+
     # A lot of 'unknown' previously came from network hiccups or slightly malformed JSON.
     # We retry a few times and use tolerant parsing to keep labels usable.
-    model_name = os.getenv("RAG_EVAL_MODEL", "Gpt-oss:20b")
+    model_name = os.getenv("RAG_EVAL_MODEL", "gpt-oss:20b")
     max_attempts = int(os.getenv("RAG_EVAL_GRADE_RETRIES", "3"))
 
     last_error: Exception | None = None
@@ -188,8 +194,8 @@ def _classify_response_sync(question: str, grading_notes: str, response_text: st
         try:
             completion = client.chat.completions.create(
                 model=model_name,
-                temperature=0,
-                max_tokens=120,
+                temperature=0.1,  # Slight temp to avoid deterministic lockups
+                max_tokens=256,
                 messages=[
                     {"role": "system", "content": EVAL_SYSTEM_PROMPT},
                     {
@@ -202,26 +208,53 @@ def _classify_response_sync(question: str, grading_notes: str, response_text: st
                     },
                 ],
             )
+            content = completion.choices[0].message.content or ""
+            parsed = _parse_labels_from_text(content)
+            
+            # Check if we got at least some valid labels
+            valid_count = sum(1 for k in DEFAULT_LABELS if k in parsed)
+            
+            if valid_count > 0:
+                return {k: parsed.get(k, "unknown") for k in DEFAULT_LABELS}
+            
+            # If we got nothing useful, raise an error to trigger retry
+            if not content:
+                msg = "Model returned empty response (system likely overloaded)"
+            else:
+                msg = f"Failed to parse output: {content[:100]!r}..."
+            
+            raise ValueError(msg)
 
-            message = completion.choices[0].message.content if completion.choices else ""
-            parsed = _parse_labels_from_text(message or "")
-
-            labels = {**DEFAULT_LABELS}
-            for key in labels.keys():
-                norm = _normalize_label(key, parsed.get(key))
-                if norm:
-                    labels[key] = norm
-
-            return labels
         except (httpx.ReadError, httpx.ConnectError) as e:
             last_error = e
+            # Network hiccups usually recover quickly.
+            base_wait = 2.0 * (attempt + 1)
+            wait = min(20.0, base_wait + random.uniform(0.0, 0.8))
+            print(
+                f"Network error (attempt {attempt+1}): {e}. Retrying in {wait:.1f}s...",
+                file=sys.stderr,
+            )
             if attempt + 1 < max_attempts:
-                time.sleep(1.0 * (attempt + 1))
+                time.sleep(wait)
                 continue
         except Exception as e:
             last_error = e
+            # Empty responses are often a fast-fail caused by VRAM/KV-cache pressure.
+            # Waiting only ~2s can be too short, so we back off more aggressively.
+            msg = str(e).lower()
+            if "empty response" in msg or "overloaded" in msg:
+                base_wait = 8.0 * (attempt + 1)
+                wait = min(60.0, base_wait + random.uniform(0.0, 2.0))
+            else:
+                base_wait = 2.0 * (attempt + 1)
+                wait = min(20.0, base_wait + random.uniform(0.0, 0.8))
+
+            print(
+                f"Grading error (attempt {attempt+1}): {e}. Retrying in {wait:.1f}s...",
+                file=sys.stderr,
+            )
             if attempt + 1 < max_attempts:
-                time.sleep(0.5 * (attempt + 1))
+                time.sleep(wait)
                 continue
 
     # If we couldn't grade after retries, keep unknown but include a hint for debugging.
@@ -231,7 +264,9 @@ def _classify_response_sync(question: str, grading_notes: str, response_text: st
 
 
 async def classify_response(question: str, grading_notes: str, response_text: str) -> dict:
-    cache_key = (question, grading_notes, response_text)
+    # Avoid using the entire response text in the cache key (can be very large).
+    response_fp = hashlib.sha1(response_text.encode("utf-8"), usedforsecurity=False).hexdigest()
+    cache_key = (question, grading_notes, response_fp)
     with _classification_lock:
         cached = _classification_cache.get(cache_key)
     if cached is not None:
@@ -239,11 +274,14 @@ async def classify_response(question: str, grading_notes: str, response_text: st
 
     global _grade_semaphore
     if _grade_semaphore is None:
-        grade_concurrency = int(os.getenv("RAG_EVAL_GRADE_CONCURRENCY", "2"))
+        # Default to 1 to prevent overloading local models during grading
+        grade_concurrency = int(os.getenv("RAG_EVAL_GRADE_CONCURRENCY", "1"))
         _grade_semaphore = asyncio.Semaphore(max(1, grade_concurrency))
 
     loop = asyncio.get_running_loop()
     async with _grade_semaphore:
+        # Small sleep to let GPU cool down between heavy tasks
+        await asyncio.sleep(0.5)
         labels = await loop.run_in_executor(
             None, _classify_response_sync, question, grading_notes, response_text
         )
@@ -274,9 +312,15 @@ async def query_with_cache(question: str) -> dict:
     for attempt in range(max_attempts):
         try:
             result = await loop.run_in_executor(None, rag_client.query, question)
+
+            # Trim the cached payload aggressively to avoid ballooning memory over long runs.
+            minimal = {
+                "answer": (result.get("answer") if isinstance(result, dict) else "") or "",
+                "logs": (result.get("logs") if isinstance(result, dict) else "") or " ",
+            }
             with _query_lock:
-                _query_cache[question] = result
-            return result
+                _query_cache[question] = minimal
+            return minimal
         except (ConnectionResetError, BrokenPipeError, EOFError, httpx.ReadError, httpx.ConnectError) as e:
             last_error = e
             if attempt + 1 < max_attempts:
@@ -342,56 +386,184 @@ async def run_experiment(row):
     }
 
 
-async def evaluate_dataset(rows, concurrency: int) -> list[dict]:
+async def run_query_only(row: dict) -> dict:
+    t0 = time.monotonic()
+    response = await query_with_cache(row["question"])
+    t1 = time.monotonic()
+
+    answer = response.get("answer", "")
+    conciseness = measure_conciseness(answer)
+
+    return {
+        **row,
+        "response": answer,
+        "conciseness": conciseness,
+        "query_latency_s": round(t1 - t0, 4),
+        "log_file": response.get("logs", " "),
+    }
+
+
+async def run_grade_only(partial: dict) -> dict:
+    t0 = time.monotonic()
+    labels = await classify_response(
+        question=partial.get("question", ""),
+        grading_notes=partial.get("grading_notes", ""),
+        response_text=partial.get("response", ""),
+    )
+    t1 = time.monotonic()
+
+    grade_latency_s = round(t1 - t0, 4)
+    query_latency_s = float(partial.get("query_latency_s") or 0.0)
+
+    return {
+        **partial,
+        "coverage": labels["coverage"],
+        "grounding": labels["grounding"],
+        "faithfulness": labels["faithfulness"],
+        "answer_relevancy": labels["answer_relevancy"],
+        "grade_latency_s": grade_latency_s,
+        # In two-phase mode, "total" is query+grade (not wall-clock across phases).
+        "total_latency_s": round(query_latency_s + grade_latency_s, 4),
+    }
+
+
+def load_results_csv(path: Path) -> list[dict]:
+    with path.open(newline="", encoding="utf-8") as fh:
+        reader = csv.DictReader(fh)
+        return list(reader)
+
+
+async def evaluate_queries(rows: list[dict], concurrency: int) -> list[dict]:
     semaphore = asyncio.Semaphore(max(1, concurrency))
     total = len(rows)
-    results: list[dict] = []
+    print(f"Phase 1/2: querying answers (concurrency={concurrency})", flush=True)
 
-    counters = {"started": 0, "completed": 0, "in_flight": 0}
-    start_time = time.monotonic()
+    query_results: list[dict] = []
+    q_counters = {"started": 0, "completed": 0, "in_flight": 0, "query_latency_sum": 0.0}
+    q_start = time.monotonic()
 
-    async def worker(idx, row):
+    async def query_worker(idx, row):
         async with semaphore:
-            counters["started"] += 1
-            counters["in_flight"] += 1
+            q_counters["started"] += 1
+            q_counters["in_flight"] += 1
             q = (row.get("question") or "").replace("\n", " ")[:120]
-            print(f"Starting {idx+1}/{total}: {q}", flush=True)
-            res = await run_experiment(row)
-            counters["in_flight"] -= 1
-            counters["completed"] += 1
-            elapsed = time.monotonic() - start_time
-            avg = elapsed / counters["completed"] if counters["completed"] else 0
-            eta = avg * (total - counters["completed"])
+            print(f"[Q] Starting {idx+1}/{total}: {q}", flush=True)
+            res = await run_query_only(row)
+            q_counters["in_flight"] -= 1
+            q_counters["completed"] += 1
+            q_counters["query_latency_sum"] += float(res.get("query_latency_s") or 0.0)
+
+            elapsed = time.monotonic() - q_start
+            pace = elapsed / q_counters["completed"] if q_counters["completed"] else 0
+            eta = pace * (total - q_counters["completed"])
+            avg_q = q_counters["query_latency_sum"] / q_counters["completed"] if q_counters["completed"] else 0
             print(
-                f"Finished {counters['completed']}/{total} (idx={idx+1}) elapsed={int(elapsed)}s avg={avg:.1f}s ETA={int(eta)}s",
+                f"[Q] Finished {q_counters['completed']}/{total} elapsed={int(elapsed)}s avg_q={avg_q:.1f}s ETA={int(eta)}s",
                 flush=True,
             )
             return res
 
-    tasks = [asyncio.create_task(worker(i, row)) for i, row in enumerate(rows)]
+    query_tasks = [asyncio.create_task(query_worker(i, row)) for i, row in enumerate(rows)]
+    for future in asyncio.as_completed(query_tasks):
+        query_results.append(await future)
 
-    async def heartbeat():
-        while True:
-            await asyncio.sleep(10)
-            elapsed = time.monotonic() - start_time
-            completed = counters["completed"]
-            in_flight = counters["in_flight"]
-            pct = (completed / total * 100) if total else 0
-            print(
-                f"Heartbeat: completed={completed}/{total} ({pct:.1f}%) in_flight={in_flight} elapsed={int(elapsed)}s",
-                flush=True,
-            )
+    return query_results
 
-    hb_task = asyncio.create_task(heartbeat())
 
-    try:
-        for future in asyncio.as_completed(tasks):
-            result = await future
-            results.append(result)
-    finally:
-        hb_task.cancel()
+async def evaluate_grades(query_results: list[dict]) -> list[dict]:
+    total = len(query_results)
+    print("Phase 2/2: grading answers...", flush=True)
 
-    return results
+    graded: list[dict] = []
+    g_start = time.monotonic()
+    grade_latency_sum = 0.0
+
+    for i, partial in enumerate(query_results, start=1):
+        q = (partial.get("question") or "").replace("\n", " ")[:120]
+        print(f"[G] Grading {i}/{total}: {q}", flush=True)
+        res = await run_grade_only(partial)
+        graded.append(res)
+        grade_latency_sum += float(res.get("grade_latency_s") or 0.0)
+        elapsed = time.monotonic() - g_start
+        pace = elapsed / i if i else 0
+        eta = pace * (total - i)
+        avg_g = grade_latency_sum / i if i else 0
+        print(f"[G] Done {i}/{total} elapsed={int(elapsed)}s avg_g={avg_g:.1f}s ETA={int(eta)}s", flush=True)
+
+    return graded
+
+
+async def evaluate_dataset(rows, concurrency: int) -> list[dict]:
+    two_phase = os.getenv("RAG_EVAL_TWO_PHASE", "1").strip().lower() in {"1", "true", "yes", "y"}
+
+    if not two_phase:
+        # Original single-phase behavior (query + grade per item).
+        semaphore = asyncio.Semaphore(max(1, concurrency))
+        total = len(rows)
+        results: list[dict] = []
+
+        counters = {"started": 0, "completed": 0, "in_flight": 0, "total_latency_sum": 0.0}
+        start_time = time.monotonic()
+
+        async def worker(idx, row):
+            async with semaphore:
+                counters["started"] += 1
+                counters["in_flight"] += 1
+                q = (row.get("question") or "").replace("\n", " ")[:120]
+                print(f"Starting {idx+1}/{total}: {q}", flush=True)
+                res = await run_experiment(row)
+                counters["in_flight"] -= 1
+                counters["completed"] += 1
+
+                # Track actual latency for reporting
+                counters["total_latency_sum"] += res.get("total_latency_s", 0)
+
+                elapsed = time.monotonic() - start_time
+                # 'pace' is seconds per completed item (wall time), used for ETA
+                pace = elapsed / counters["completed"] if counters["completed"] else 0
+                eta = pace * (total - counters["completed"])
+
+                # 'avg_lat' is the true average duration of the tasks so far
+                avg_lat = counters["total_latency_sum"] / counters["completed"] if counters["completed"] else 0
+
+                print(
+                    f"Finished {counters['completed']}/{total} (idx={idx+1}) elapsed={int(elapsed)}s avg_lat={avg_lat:.1f}s ETA={int(eta)}s",
+                    flush=True,
+                )
+                return res
+
+        tasks = [asyncio.create_task(worker(i, row)) for i, row in enumerate(rows)]
+
+        async def heartbeat():
+            while True:
+                await asyncio.sleep(10)
+                elapsed = time.monotonic() - start_time
+                completed = counters["completed"]
+                in_flight = counters["in_flight"]
+                pct = (completed / total * 100) if total else 0
+                print(
+                    f"Heartbeat: completed={completed}/{total} ({pct:.1f}%) in_flight={in_flight} elapsed={int(elapsed)}s",
+                    flush=True,
+                )
+
+        hb_task = asyncio.create_task(heartbeat())
+
+        try:
+            for future in asyncio.as_completed(tasks):
+                result = await future
+                results.append(result)
+        finally:
+            hb_task.cancel()
+
+        return results
+
+    # --- Two-phase mode: generate answers first, then grade. ---
+    print(
+        f"Two-phase mode enabled: phase1=query (concurrency={concurrency}), phase2=grading (grade concurrency via RAG_EVAL_GRADE_CONCURRENCY)",
+        flush=True,
+    )
+    query_results = await evaluate_queries(list(rows), concurrency)
+    return await evaluate_grades(query_results)
 
 
 def save_results_csv(results: list[dict], dataset_name: str) -> Path:
@@ -421,13 +593,47 @@ async def main():
         print("Dataset is empty; nothing to evaluate.")
         return
 
-    concurrency = int(os.getenv("RAG_EVAL_CONCURRENCY", "6"))
-    print(f"Loaded {total} rows. Evaluating with concurrency={concurrency}...")
-
-    results = await evaluate_dataset(rows, concurrency)
-    print("Evaluation completed successfully!")
+    concurrency = int(os.getenv("RAG_EVAL_CONCURRENCY", "2"))
+    phase = os.getenv("RAG_EVAL_PHASE", "all").strip().lower()
 
     dataset_name = getattr(dataset, "name", "experiment_results")
+    out_dir = Path(__file__).parent / "evals" / "experiments"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Phase-1 checkpoint file so you can resume grading without re-querying.
+    query_csv = Path(os.getenv("RAG_EVAL_QUERY_CSV", str(out_dir / f"{dataset_name}_query_only.csv")))
+
+    print(f"Loaded {total} rows. concurrency={concurrency} phase={phase} two_phase={os.getenv('RAG_EVAL_TWO_PHASE','1')}")
+
+    if phase in {"query", "phase1", "q"}:
+        query_results = await evaluate_queries(rows, concurrency)
+        csv_path = save_results_csv(query_results, query_csv.stem)
+        print(f"Phase 1 saved to: {csv_path.resolve()}")
+        return
+
+    if phase in {"grade", "phase2", "g"}:
+        if not query_csv.exists():
+            raise FileNotFoundError(
+                f"Query checkpoint not found: {query_csv}. Run with RAG_EVAL_PHASE=query first."
+            )
+        query_results = load_results_csv(query_csv)
+        results = await evaluate_grades(query_results)
+        csv_path = save_results_csv(results, f"{dataset_name}_results")
+        print(f"Results saved to: {csv_path.resolve()}")
+        return
+
+    # Default: run full evaluation (single or two-phase depending on RAG_EVAL_TWO_PHASE)
+    # If two-phase is enabled, we also checkpoint phase 1 before grading.
+    two_phase = os.getenv("RAG_EVAL_TWO_PHASE", "1").strip().lower() in {"1", "true", "yes", "y"}
+    if two_phase:
+        query_results = await evaluate_queries(rows, concurrency)
+        csv_path = save_results_csv(query_results, query_csv.stem)
+        print(f"Phase 1 saved to: {csv_path.resolve()}")
+        results = await evaluate_grades(query_results)
+    else:
+        results = await evaluate_dataset(rows, concurrency)
+
+    print("Evaluation completed successfully!")
     csv_path = save_results_csv(results, f"{dataset_name}_results")
     print(f"Results saved to: {csv_path.resolve()}")
 
