@@ -139,9 +139,9 @@ class GraphStore:
             ).keys()
             sub_nodes.update(nodes)
 
-        # Limit size
-        if len(sub_nodes) > max_nodes:
-            sub_nodes = set(list(sub_nodes)[:max_nodes])
+        # Limit size - RESTRICTION REMOVED
+        # if len(sub_nodes) > max_nodes:
+        #    sub_nodes = set(list(sub_nodes)[:max_nodes])
 
         subgraph = self.graph.subgraph(sub_nodes).copy()
         # flatten into serializable dict
@@ -183,7 +183,7 @@ class GraphStore:
             self.graph.nodes,
             key=lambda n: self.graph.degree(n),
             reverse=True,
-        )[:max_nodes]
+        ) # [:max_nodes] - RESTRICTION REMOVED
         subgraph = self.graph.subgraph(top_nodes).copy()
 
         nodes_out = []
